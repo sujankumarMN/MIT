@@ -1,0 +1,17 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(17Dec2022:13:09:44):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )
+s2::(17Dec2022:13:10:08):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )
+s3::(17Dec2022:13:10:27):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )
+s4::(17Dec2022:13:10:58):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )
+s5::(17Dec2022:13:11:57):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )
+s6::(17Dec2022:15:13:15):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )
+s7::(17Dec2022:15:14:44):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )
+s8::(17Dec2022:15:16:55):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )
+s9::(17Dec2022:15:31:38):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )
+s10::(17Dec2022:15:34:47):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )
+s11::(17Dec2022:15:46:57):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )
+s12::(17Dec2022:15:47:13):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )
+s13::(17Dec2022:15:47:30):( irun +access+rwc testbench.sv clock.sv controller.sv +gui )

@@ -1,0 +1,1325 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Dec 21, 2022 at 16:58:01 IST
+irun
+	+access+rwc
+	tb_ram_controller.sv
+	+a_write
+	+gui
+	-coverage all
+
+   User defined plus("+") options:
+	+a_write
+
+SVSEED default: 1
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *E,C58EXE: Coverage database file already exists in the test output directory './cov_work/scope/test', and will not be overwritten. Specify a different name for the test output directory or use the '-covoverwrite' option to overwrite the existing test output directory, and rerun the simulation.
+stop -create -name Randomize -randomize
+Created stop Randomize
+
+time: 0 [GENERATOR] Write A operation is in progress
+
+time: 5 [MONITOR] DUT to Monitor data_in=0, row_address = 0, col_address = 0, bank_grp = 0, bank_no = 0 data_out=0, datain: 0
+
+time: 5 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: 0
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 0
+
+	 ROW ADDRESS: 0
+
+	 COLUMN ADDRESS: 0
+
+time: 10 [MONITOR] DUT to Monitor data_in=0, row_address = 0, col_address = 0, bank_grp = 0, bank_no = 0 data_out=0, datain: 0
+
+time: 10 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: 0
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 0
+
+	 ROW ADDRESS: 0
+
+	 COLUMN ADDRESS: 0
+
+time: 15 [MONITOR] DUT to Monitor data_in=0, row_address = 0, col_address = 0, bank_grp = 0, bank_no = 0 data_out=0, datain: 0
+
+time: 15 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: 0
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 0
+
+	 ROW ADDRESS: 0
+
+	 COLUMN ADDRESS: 0
+
+time: 20 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 20 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 25 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 25 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 30 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 30 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 35 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 35 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 40 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 40 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 45 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 45 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+time: 50 [DRIVER] write A operation is initiated. DATA_IN=f7bb, Row_Address=4, Col_Address=6
+
+time: 50 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 50 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 55 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 55 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 60 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 60 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 65 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 65 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 70 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 70 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 75 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 75 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 80 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 80 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 85 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 85 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 90 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 90 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 95 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 95 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 100 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 100 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 105 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 105 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 110 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 110 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 115 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 115 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 120 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 120 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 125 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 125 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 130 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 130 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 135 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 135 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 140 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 140 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 145 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 145 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 150 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 150 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 155 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 155 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 160 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 160 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 165 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 165 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 170 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 170 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 175 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 175 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 180 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 180 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 185 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 185 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 190 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 190 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 195 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 195 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 200 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 200 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 205 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 205 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 210 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 210 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 215 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 215 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 220 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 220 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 225 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 225 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 230 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 230 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 235 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 235 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 240 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 240 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 245 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 245 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 250 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 250 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 255 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 255 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 260 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 260 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 265 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 265 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 270 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 270 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 275 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 275 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 280 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 280 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 285 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 285 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 290 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 290 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 295 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 295 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 300 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 300 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 305 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 305 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 310 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 310 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 315 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 315 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 320 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 320 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 325 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 325 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 330 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 330 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 335 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 335 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 340 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 340 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 345 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 345 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 350 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 350 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 355 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 355 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 360 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 360 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 365 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 365 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 370 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 370 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 375 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 375 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 380 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 380 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 385 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 385 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 390 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 390 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+
+time: 395 [MONITOR] DUT to Monitor data_in=f7bb, row_address = 4, col_address = 6, bank_grp = 0, bank_no = 2 data_out=0, datain: f7bb
+
+time: 395 [SCOREBOARD] DATA received from DUT
+
+	 DATA_IN: f7bb
+
+	 DATA_OUT: 0
+
+	 BANK GROUP: 0
+
+	 BANK NUMBER: 2
+
+	 ROW ADDRESS: 4
+
+	 COLUMN ADDRESS: 6
+time: 400 [SCOREBOARD] <TESTCASE PASSED> ROW ADDRESS: 0, DATA IN: 0 MATCHED with DATA_OUT=0
+time: 400 [SCOREBOARD] write entries=1, Read entries =1
+time: 400 [SCOREBOARD] <TESTCASE FAILED> ROW ADDRESS: 4, DATA IN: f7bb ERROR with DATA_OUT=0
+time: 400 [SCOREBOARD] write entries=0, Read entries =0
+Simulation complete via implicit call to $finish(1) at time 400 NS + 2
+./r_environment.sv:61 	    $exit;
+ncsim> coverage -analyze
+ncsim: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+ncsim: *W,CGPIZE: Instance coverage for covergroup instance "rmon_cov" will not be dumped to database as per_instance option value is set to 0:./r_monitor.sv, 6.
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  tb_ram_controller(tb_ram_controller)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_56f875ec_5169448e.ucm (reused)
+  data               :  ./cov_work/scope/test/icc_56f875ec_5169448e.ucd
+
+Launching IMC...
+
+ncsim> ^C
+ncsim> exit
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  tb_ram_controller(tb_ram_controller)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_56f875ec_5169448e.ucm (reused)
+  data               :  ./cov_work/scope/test/icc_56f875ec_5169448e.ucd
+TOOL:	irun(64)	15.20-s086: Exiting on Dec 22, 2022 at 14:23:11 IST  (total: 21:25:10)

@@ -1,0 +1,120 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Dec 17, 2022 at 15:47:30 IST
+irun
+	+access+rwc
+	testbench.sv
+	clock.sv
+	controller.sv
+	+gui
+Recompiling... reason: file './controller.sv' is newer than expected.
+	expected: Sat Dec 17 13:28:51 2022
+	actual:   Sat Dec 17 15:41:59 2022
+file: testbench.sv
+	module worklib.testbench:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		ddr4_pkg
+		$unit_0x383024f2
+		testbench
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.controller:sv <0x4aea7f73>
+			streams:  16, words: 37971
+		worklib.testbench:sv <0x1739655c>
+			streams:  18, words: 20701
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 3       3
+		Verilog packages:        1       1
+		Registers:              38      38
+		Scalar wires:           16       -
+		Vectored wires:          6       -
+		Always blocks:           5       5
+		Initial blocks:          2       2
+		Pseudo assignments:     19      19
+		Compilation units:       1       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.testbench:sv
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm testbench.c1.a9_0 testbench.c1.a11 testbench.c1.a13 testbench.c1.act_n testbench.c1.ap_a10 testbench.c1.b_select_temp testbench.c1.bank0_0 testbench.c1.bank0_1 testbench.c1.bank0_2 testbench.c1.bank0_3 testbench.c1.bank1_0 testbench.c1.bank1_1 testbench.c1.bank1_2 testbench.c1.bank1_3 testbench.c1.bank_group_select testbench.c1.bank_select testbench.c1.bc_n_a12 testbench.c1.bgs_temp testbench.c1.cas_n_a15 testbench.c1.ck_c testbench.c1.ck_t testbench.c1.cke testbench.c1.cs_n testbench.c1.cur_bank testbench.c1.data_in testbench.c1.data_out testbench.c1.flag testbench.c1.next_bank testbench.c1.ras_n_a16 testbench.c1.refresh testbench.c1.reset_n testbench.c1.row_addr testbench.c1.row_buffer testbench.c1.we_n_a14
+Created probe 1
+ncsim> run
+[$monitor] Time = 0.00ns, Present_State = 0, Next_state = 0 
+[$monitor] Time = 10.00ns, Present_State = 0, Next_state = 8 
+[$monitor] Time = 25.00ns, Present_State = 8, Next_state = 2 
+[$monitor] Time = 115.00ns, Present_State = 2, Next_state = 0 
+[$monitor] Time = 125.00ns, Present_State = 0, Next_state = 0 
+[$monitor] Time = 210.00ns, Present_State = 0, Next_state = 9 
+[$monitor] Time = 215.00ns, Present_State = 9, Next_state = 9 
+[$monitor] Time = 220.00ns, Present_State = 9, Next_state = 0 
+[$monitor] Time = 230.00ns, Present_State = 0, Next_state = 0 
+[$monitor] Time = 270.00ns, Present_State = 1, Next_state = 1 
+In WRITE datain row buffer is ff00
+[$monitor] Time = 280.00ns, Present_State = 3, Next_state = 3 
+In WRITE datain row buffer is ff00
+entered wait_counter
+entered wait_counter
+In READ datain row buffer is ff00
+[$monitor] Time = 680.00ns, Present_State = 5, Next_state = 5 
+In READ datain row buffer is ff00
+PRECHARGE bank0_0
+[$monitor] Time = 750.00ns, Present_State = 7, Next_state = 0 
+[$monitor] Time = 760.00ns, Present_State = 0, Next_state = 1 
+ACTIVATE bank1_1
+[$monitor] Time = 770.00ns, Present_State = 1, Next_state = 1 
+ACTIVATE bank1_1
+In WRITE datain row buffer is afbc
+[$monitor] Time = 1550.00ns, Present_State = 3, Next_state = 3 
+PRECHARGE bank1_1
+[$monitor] Time = 1570.00ns, Present_State = 7, Next_state = 7 
+PRECHARGE bank1_1
+PRECHARGE bank1_1
+PRECHARGE bank1_1
+[$monitor] Time = 1940.00ns, Present_State = 7, Next_state = 0 
+[$monitor] Time = 1950.00ns, Present_State = 0, Next_state = 1 
+ACTIVATE bank1_1
+[$monitor] Time = 1960.00ns, Present_State = 1, Next_state = 3 
+In WRITE datain row buffer is afbc
+[$monitor] Time = 1970.00ns, Present_State = 3, Next_state = 3 
+entered wait_counter
+[$monitor] Time = 2360.00ns, Present_State = 3, Next_state = 5 
+In READ datain row buffer is afbc
+[$monitor] Time = 2370.00ns, Present_State = 5, Next_state = 5 
+PRECHARGE bank1_1
+[$monitor] Time = 2800.00ns, Present_State = 7, Next_state = 0 
+[$monitor] Time = 2810.00ns, Present_State = 0, Next_state = 1 
+[$monitor] Time = 2820.00ns, Present_State = 1, Next_state = 1 
+In WRITE datain row buffer is 7654
+[$monitor] Time = 4000.00ns, Present_State = 3, Next_state = 3 
+In WRITE datain row buffer is 7654
+entered wait_counter
+entered wait_counter
+In READ datain row buffer is 7654
+[$monitor] Time = 4400.00ns, Present_State = 5, Next_state = 5 
+PRECHARGE bank0_0
+[$monitor] Time = 5600.00ns, Present_State = 7, Next_state = 0 
+[$monitor] Time = 5610.00ns, Present_State = 0, Next_state = 1 
+[$monitor] Time = 5620.00ns, Present_State = 1, Next_state = 1 
+In WRITE datain row buffer is 7654
+[$monitor] Time = 6400.00ns, Present_State = 3, Next_state = 3 
+In WRITE datain row buffer is 7654
+entered wait_counter
+Simulation complete via $finish(1) at time 15400 NS + 0
+./testbench.sv:99 		#9000 $finish; 
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	irun(64)	15.20-s086: Exiting on Dec 17, 2022 at 15:50:52 IST  (total: 00:03:22)

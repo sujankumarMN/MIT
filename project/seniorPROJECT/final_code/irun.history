@@ -1,0 +1,9 @@
+s1(21Dec2022:16:16:10):  irun +access+rwc tb_ram_controller.sv +wr_burst +gui 
+s2(21Dec2022:16:24:56):  irun +access+rwc tb_ram_controller.sv +read +gui 
+s3(21Dec2022:16:25:37):  irun +access+rwc tb_ram_controller.sv +self +gui 
+s4(21Dec2022:16:32:12):  irun +access+rwc tb_ram_controller.sv +self +gui -coverage all 
+s5(21Dec2022:16:33:49):  irun +access+rwc tb_ram_controller.sv +r_precharge +gui -coverage all 
+s6(21Dec2022:16:53:18):  irun +access+rwc tb_ram_controller.sv +r_precharge +gui -coverage all 
+s7(21Dec2022:16:53:42):  irun +access+rwc tb_ram_controller.sv +write +gui -coverage all 
+s8(21Dec2022:16:56:18):  irun +access+rwc tb_ram_controller.sv +write_a +gui -coverage all 
+s9(21Dec2022:16:58:01):  irun +access+rwc tb_ram_controller.sv +a_write +gui -coverage all 

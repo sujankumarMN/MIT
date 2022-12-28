@@ -1,0 +1,6 @@
+define VIEW_MAP ( $VIEW_MAP \
+, .pkg => pkg \
+)
+define VIEW_MAP ( $VIEW_MAP \
+, .pkg => pkg \
+)
