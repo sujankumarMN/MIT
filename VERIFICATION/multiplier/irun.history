@@ -1,0 +1,17 @@
+s1(28Nov2022:12:29:20):  irun +access+rwc multiplier.sv multiplier_tb.sv +gui 
+s2(28Nov2022:13:52:03):  irun multiplier.sv multiplier_tb.sv 
+s3(28Nov2022:13:52:41):  irun multiplier.sv multiplier_tb.sv +gui 
+s4(28Nov2022:13:53:37):  irun +access+rwc multiplier.sv multiplier_tb.sv +gui 
+s5(28Nov2022:13:54:34):  irun +access+rwc multiplier.sv multiplier_tb.sv +gui 
+s6(28Nov2022:13:55:55):  irun +access+rwc multiplier.sv multiplier_tb.sv +gui 
+s7(28Nov2022:14:22:51):  irun multiplier.sv multiplier_tb.sv +gui 
+s8(28Nov2022:14:23:36):  irun +access+rwc multiplier.sv multiplier_tb.sv +gui 
+s9(28Nov2022:14:28:43):  irun +access+rwc multiplier.sv multiplier_tb.sv +gui 
+s10(28Nov2022:14:34:00):  irun +access+rwc multiplier.sv multiplier_tb.sv +gui 
+s11(28Nov2022:14:36:10):  irun +access+rwc multiplier.sv multiplier_tb.sv +gui 
+s12(28Nov2022:14:36:39):  irun +access+rwc multiplier.sv multiplier_tb.sv +gui 
+s13(28Nov2022:14:41:23):  irun +access+rwc multiplier.sv multiplier_tb.sv +gui 
+s14(28Nov2022:14:43:14):  irun +access+rwc multiplier.sv multiplier_tb.sv +gui 
+s15(28Nov2022:14:44:25):  irun multiplier.sv multiplier_tb.sv +gui 
+s16(28Nov2022:14:48:44):  irun multiplier.sv multiplier_tb.sv +gui 
+s17(28Nov2022:14:49:16):  irun +access+rwc multiplier.sv multiplier_tb.sv +gui 

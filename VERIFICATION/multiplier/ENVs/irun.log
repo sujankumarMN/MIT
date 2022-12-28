@@ -1,0 +1,95 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Nov 28, 2022 at 17:33:49 IST
+irun
+	+access+rwc
+	multiplier_tb.sv
+	+load
+	+gui
+
+   User defined plus("+") options:
+	+load
+
+Recompiling... reason: file './multiplier_tb.sv' is newer than expected.
+	expected: Mon Nov 28 15:06:02 2022
+	actual:   Mon Nov 28 17:09:56 2022
+file: multiplier_tb.sv
+	package worklib.mul_package:sv
+		errors: 0, warnings: 0
+program mul_env(mul_interface mul_interface_test);
+      |
+ncvlog: *E,BADIMP (env.sv,1|6): Poorly formed import clause.
+(`include file: env.sv line 1, file: multiplier_tb.sv line 3)
+program mul_env(mul_interface mul_interface_test);
+      |
+ncvlog: *E,EXPSMC (env.sv,1|6): expecting a semicolon (';') IEEE 1800-2012, 26.3.
+(`include file: env.sv line 1, file: multiplier_tb.sv line 3)
+	mul_transaction mgen;
+	              |
+ncvlog: *E,NOIPRT (generator.sv,3|15): Unrecognized declaration 'mul_transaction' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: generator.sv line 3, `include file: env.sv line 2, file: multiplier_tb.sv line 3)
+		this mgen2mbox=mgen2mbox;
+		   |
+ncvlog: *E,NOTLVL (generator.sv,6|5): illegal lvalue syntax [9.2(IEEE)].
+(`include file: generator.sv line 6, `include file: env.sv line 2, file: multiplier_tb.sv line 3)
+		this mgen2mbox=mgen2mbox;
+		             |
+ncvlog: *E,MISEXX (generator.sv,6|15): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+(`include file: generator.sv line 6, `include file: env.sv line 2, file: multiplier_tb.sv line 3)
+		if(stringname="rst")
+		             |
+ncvlog: *E,EXPRPA (generator.sv,14|15): expecting a right parenthesis (')') [9.4(IEEE)].
+(`include file: generator.sv line 14, `include file: env.sv line 2, file: multiplier_tb.sv line 3)
+		if(stringname="load")
+		             |
+ncvlog: *E,EXPRPA (generator.sv,21|15): expecting a right parenthesis (')') [9.4(IEEE)].
+(`include file: generator.sv line 21, `include file: env.sv line 2, file: multiplier_tb.sv line 3)
+	mul_transaction mdrv;
+	              |
+ncvlog: *E,NOIPRT (driver.sv,3|15): Unrecognized declaration 'mul_transaction' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: driver.sv line 3, `include file: env.sv line 3, file: multiplier_tb.sv line 3)
+	function new(mailbox mbox2drv,mul_interface mul_interface_driver);
+	                                          |
+ncvlog: *E,EXPRPA (driver.sv,6|43): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: driver.sv line 6, `include file: env.sv line 3, file: multiplier_tb.sv line 3)
+	function new(mailbox mbox2drv,mul_interface mul_interface_driver);
+	                                          |
+ncvlog: *E,NOIPRT (driver.sv,6|43): Unrecognized declaration 'mul_interface' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: driver.sv line 6, `include file: env.sv line 3, file: multiplier_tb.sv line 3)
+	function new(mailbox mbox2drv,mul_interface mul_interface_driver);
+	                                          |
+ncvlog: *E,NOTINF (driver.sv,6|43): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: driver.sv line 6, `include file: env.sv line 3, file: multiplier_tb.sv line 3)
+	function new(mailbox mbox2drv,mul_interface mul_interface_driver);
+	                                                               |
+ncvlog: *E,ILLPDL (driver.sv,6|64): Mixing of ansi & non-ansi style port declaration is not legal.
+(`include file: driver.sv line 6, `include file: env.sv line 3, file: multiplier_tb.sv line 3)
+	function new(mailbox mbox2drv,mul_interface mul_interface_driver);
+	                                                                |
+ncvlog: *E,EXPSMC (driver.sv,6|65): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: driver.sv line 6, `include file: env.sv line 3, file: multiplier_tb.sv line 3)
+		this.mbox2drv=mbox2drv;
+		   |
+ncvlog: *E,EXPRPA (driver.sv,7|5): expecting a right parenthesis (')') [A.2.6(IEEE)].
+(`include file: driver.sv line 7, `include file: env.sv line 3, file: multiplier_tb.sv line 3)
+	extern task send_to_dut(mul_transaction mul_drive);
+	                                      |
+ncvlog: *E,SVNOTY (driver.sv,11|39): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: driver.sv line 11, `include file: env.sv line 3, file: multiplier_tb.sv line 3)
+	@posedge(mul_interface_driver.clk);
+	       |
+ncvlog: *E,FNDKWD (driver.sv,16|8): A Verilog keyword was found where an identifier was expected.
+(`include file: driver.sv line 16, `include file: env.sv line 3, file: multiplier_tb.sv line 3)
+	@posedge(mul_interface_driver.clk);
+	                                 |
+ncvlog: *E,NOTSTT (driver.sv,16|34): expecting a statement [9(IEEE)].
+(`include file: driver.sv line 16, `include file: env.sv line 3, file: multiplier_tb.sv line 3)
+task mul_driver::send_to_dut(input mul_transaction mul_drive);
+                                                 |
+ncvlog: *E,SVNOTY (driver.sv,24|49): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+(`include file: driver.sv line 24, `include file: env.sv line 3, file: multiplier_tb.sv line 3)
+	program worklib.mul_env:sv
+		errors: 16, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 2, warnings: 0
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	irun(64)	15.20-s086: Exiting on Nov 28, 2022 at 17:33:49 IST  (total: 00:00:00)

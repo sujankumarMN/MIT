@@ -1,0 +1,147 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Dec 26, 2022 at 21:13:16 IST
+irun
+	+access+rwc
+	controlpath.sv
+	datapath.sv
+	testbench.sv
+	+gui
+Recompiling... reason: file './datapath.sv' is newer than expected.
+	expected: Mon Dec 26 21:06:14 2022
+	actual:   Mon Dec 26 21:13:11 2022
+file: controlpath.sv
+	logic clk,zero,start,loadA,loadB,decB;
+	        |
+ncvlog: *W,ILLPDX (controlpath.sv,2|9): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'clk') [12.3.4(IEEE-2001)].
+	logic clk,zero,start,loadA,loadB,decB;
+	             |
+ncvlog: *W,ILLPDX (controlpath.sv,2|14): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'zero') [12.3.4(IEEE-2001)].
+	logic clk,zero,start,loadA,loadB,decB;
+	                   |
+ncvlog: *W,ILLPDX (controlpath.sv,2|20): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'start') [12.3.4(IEEE-2001)].
+	logic clk,zero,start,loadA,loadB,decB;
+	                         |
+ncvlog: *W,ILLPDX (controlpath.sv,2|26): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'loadA') [12.3.4(IEEE-2001)].
+	logic clk,zero,start,loadA,loadB,decB;
+	                               |
+ncvlog: *W,ILLPDX (controlpath.sv,2|32): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'loadB') [12.3.4(IEEE-2001)].
+	logic clk,zero,start,loadA,loadB,decB;
+	                                    |
+ncvlog: *W,ILLPDX (controlpath.sv,2|37): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'decB') [12.3.4(IEEE-2001)].
+file: datapath.sv
+	logic [1:0]A;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,2|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'A') [12.3.4(IEEE-2001)].
+	logic [1:0]B;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,3|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'B') [12.3.4(IEEE-2001)].
+	logic [3:0]product;
+	                 |
+ncvlog: *W,ILLPDX (datapath.sv,4|18): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'product') [12.3.4(IEEE-2001)].
+	logic loadA,loadB,decB,loadF,clear,zero;
+	          |
+ncvlog: *W,ILLPDX (datapath.sv,5|11): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'loadA') [12.3.4(IEEE-2001)].
+	logic loadA,loadB,decB,loadF,clear,zero;
+	                |
+ncvlog: *W,ILLPDX (datapath.sv,5|17): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'loadB') [12.3.4(IEEE-2001)].
+	logic loadA,loadB,decB,loadF,clear,zero;
+	                     |
+ncvlog: *W,ILLPDX (datapath.sv,5|22): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'decB') [12.3.4(IEEE-2001)].
+	logic loadA,loadB,decB,loadF,clear,zero;
+	                           |
+ncvlog: *W,ILLPDX (datapath.sv,5|28): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'loadF') [12.3.4(IEEE-2001)].
+	logic loadA,loadB,decB,loadF,clear,zero;
+	                                 |
+ncvlog: *W,ILLPDX (datapath.sv,5|34): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'clear') [12.3.4(IEEE-2001)].
+	logic loadA,loadB,decB,loadF,clear,zero;
+	                                      |
+ncvlog: *W,ILLPDX (datapath.sv,5|39): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'zero') [12.3.4(IEEE-2001)].
+	logic [1:0]A;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,16|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'A') [12.3.4(IEEE-2001)].
+	logic [1:0]P;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,17|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'P') [12.3.4(IEEE-2001)].
+	logic clk,loadA;	
+	        |
+ncvlog: *W,ILLPDX (datapath.sv,18|9): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'clk') [12.3.4(IEEE-2001)].
+	logic clk,loadA;	
+	              |
+ncvlog: *W,ILLPDX (datapath.sv,18|15): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'loadA') [12.3.4(IEEE-2001)].
+	logic [1:0]B;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,28|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'B') [12.3.4(IEEE-2001)].
+	logic [1:0]Q;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,29|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'Q') [12.3.4(IEEE-2001)].
+	logic clk,loadB,decB;
+	        |
+ncvlog: *W,ILLPDX (datapath.sv,30|9): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'clk') [12.3.4(IEEE-2001)].
+	logic clk,loadB,decB;
+	              |
+ncvlog: *W,ILLPDX (datapath.sv,30|15): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'loadB') [12.3.4(IEEE-2001)].
+	logic clk,loadB,decB;
+	                   |
+ncvlog: *W,ILLPDX (datapath.sv,30|20): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'decB') [12.3.4(IEEE-2001)].
+	module worklib.regB:sv
+		errors: 0, warnings: 5
+	logic [1:0]P,Q;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,46|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'P') [12.3.4(IEEE-2001)].
+	logic [3:0]product;
+	                 |
+ncvlog: *W,ILLPDX (datapath.sv,47|18): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'product') [12.3.4(IEEE-2001)].
+	logic loadF,clear,clk;
+	          |
+ncvlog: *W,ILLPDX (datapath.sv,48|11): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'loadF') [12.3.4(IEEE-2001)].
+	logic loadF,clear,clk;
+	                    |
+ncvlog: *W,ILLPDX (datapath.sv,48|21): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'clk') [12.3.4(IEEE-2001)].
+	logic [1:0]B;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,63|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'B') [12.3.4(IEEE-2001)].
+	logic zero;
+	         |
+ncvlog: *W,ILLPDX (datapath.sv,64|10): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'zero') [12.3.4(IEEE-2001)].
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		regA_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	data_path dut(.*);
+	               |
+ncelab: *W,CUVMPW (./testbench.sv,19|16): port sizes differ in port connection for child port:  product (2/4).
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.regB:sv <0x2613aff1>
+			streams:   1, words:   742
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              7       7
+		Registers:           27      27
+		Scalar wires:        19       -
+		Vectored wires:      12       -
+		Always blocks:        7       7
+		Initial blocks:       3       3
+		Pseudo assignments:  21      21
+	Writing initial simulation snapshot: worklib.regA_tb:sv
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm regA_tb.dut.A regA_tb.dut.B regA_tb.dut.P regA_tb.dut.Q regA_tb.dut.clear regA_tb.dut.clk regA_tb.dut.decB regA_tb.dut.loadA regA_tb.dut.loadB regA_tb.dut.loadF regA_tb.dut.product regA_tb.dut.zero
+Created probe 1
+ncsim> run
+Simulation complete via $finish(1) at time 200 NS + 0
+./testbench.sv:49 		#200 $finish;
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	irun(64)	15.20-s086: Exiting on Dec 26, 2022 at 21:13:33 IST  (total: 00:00:17)

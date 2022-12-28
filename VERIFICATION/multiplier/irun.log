@@ -1,0 +1,44 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Nov 28, 2022 at 14:49:16 IST
+irun
+	+access+rwc
+	multiplier.sv
+	multiplier_tb.sv
+	+gui
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		multiplier_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              2       2
+		Registers:           16      16
+		Scalar wires:         5       -
+		Vectored wires:       5       -
+		Always blocks:        2       2
+		Initial blocks:       3       3
+		Cont. assignments:    1       1
+		Pseudo assignments:   7       7
+	Writing initial simulation snapshot: worklib.multiplier_tb:sv
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm multiplier_tb.dut.a multiplier_tb.dut.b multiplier_tb.dut.clk multiplier_tb.dut.load multiplier_tb.dut.op_ready multiplier_tb.dut.p multiplier_tb.dut.product multiplier_tb.dut.rst multiplier_tb.dut.temp multiplier_tb.dut.temp_b
+Created probe 1
+ncsim> run
+Simulation complete via $finish(1) at time 180 NS + 0
+./multiplier_tb.sv:27      #180 $finish;
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	irun(64)	15.20-s086: Exiting on Nov 28, 2022 at 14:49:44 IST  (total: 00:00:28)

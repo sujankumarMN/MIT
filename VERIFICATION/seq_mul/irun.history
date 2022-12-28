@@ -1,0 +1,15 @@
+s1(25Dec2022:19:49:44):  irun +access+rwc datapath.sv testbench.sv +gui 
+s2(25Dec2022:19:49:54):  irun +access+rwc datapath.sv testbench.sv +gui 
+s3(25Dec2022:19:50:10):  irun +access+rwc datapath.sv testbench.sv +gui 
+s4(25Dec2022:19:51:38):  irun +access+rwc datapath.sv testbench.sv +gui 
+s5(25Dec2022:20:12:53):  irun +access+rwc datapath.sv testbench.sv +gui 
+s6(25Dec2022:20:13:06):  irun +access+rwc datapath.sv testbench.sv +gui 
+s7(25Dec2022:20:13:17):  irun +access+rwc datapath.sv testbench.sv +gui 
+s8(25Dec2022:20:16:08):  irun +access+rwc datapath.sv testbench.sv +gui 
+s9(25Dec2022:20:16:31):  irun +access+rwc datapath.sv testbench.sv +gui 
+s10(25Dec2022:20:16:53):  irun +access+rwc datapath.sv testbench.sv +gui 
+s11(25Dec2022:20:18:56):  irun +access+rwc datapath.sv testbench.sv +gui 
+s12(25Dec2022:20:49:19):  irun +access+rwc datapath.sv testbench.sv controlpath.sv +gui 
+s13(26Dec2022:21:12:29):  irun +access+rwc controlpath.sv datapath.sv testbench.sv 
+s14(26Dec2022:21:12:37):  irun +access+rwc controlpath.sv datapath.sv testbench.sv +gui 
+s15(26Dec2022:21:13:16):  irun +access+rwc controlpath.sv datapath.sv testbench.sv +gui 
