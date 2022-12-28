@@ -1,0 +1,5 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(26Dec2022:16:04:39):( irun +access+rwc tb_ram_controller.sv +wr_burst +gui -coverage all )

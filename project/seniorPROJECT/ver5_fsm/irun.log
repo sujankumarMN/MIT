@@ -1,0 +1,240 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Dec 26, 2022 at 16:04:39 IST
+irun
+	+access+rwc
+	tb_ram_controller.sv
+	+wr_burst
+	+gui
+	-coverage all
+
+   User defined plus("+") options:
+	+wr_burst
+
+file: tb_ram_controller.sv
+	interface worklib.ram_interface:sv
+		errors: 0, warnings: 0
+	module worklib.ram_controller:sv
+		errors: 0, warnings: 0
+	package worklib.r_package:sv
+		errors: 0, warnings: 0
+				rgen.randomize();
+				             |
+ncvlog: *W,FUNTSK (r_generator.sv,17|17): function called as a task without void'().
+(`include file: r_generator.sv line 17, `include file: r_environment.sv line 1, file: tb_ram_controller.sv line 5)
+				rgen.randomize();
+				             |
+ncvlog: *W,FUNTSK (r_generator.sv,26|17): function called as a task without void'().
+(`include file: r_generator.sv line 26, `include file: r_environment.sv line 1, file: tb_ram_controller.sv line 5)
+				rgen.randomize();
+				             |
+ncvlog: *W,FUNTSK (r_generator.sv,35|17): function called as a task without void'().
+(`include file: r_generator.sv line 35, `include file: r_environment.sv line 1, file: tb_ram_controller.sv line 5)
+				rgen.randomize();
+				             |
+ncvlog: *W,FUNTSK (r_generator.sv,44|17): function called as a task without void'().
+(`include file: r_generator.sv line 44, `include file: r_environment.sv line 1, file: tb_ram_controller.sv line 5)
+				rgen.randomize();
+				             |
+ncvlog: *W,FUNTSK (r_generator.sv,53|17): function called as a task without void'().
+(`include file: r_generator.sv line 53, `include file: r_environment.sv line 1, file: tb_ram_controller.sv line 5)
+				rgen.randomize();
+				             |
+ncvlog: *W,FUNTSK (r_generator.sv,62|17): function called as a task without void'().
+(`include file: r_generator.sv line 62, `include file: r_environment.sv line 1, file: tb_ram_controller.sv line 5)
+				rgen.randomize();
+				             |
+ncvlog: *W,FUNTSK (r_generator.sv,71|17): function called as a task without void'().
+(`include file: r_generator.sv line 71, `include file: r_environment.sv line 1, file: tb_ram_controller.sv line 5)
+				rgen.randomize();
+				             |
+ncvlog: *W,FUNTSK (r_generator.sv,81|17): function called as a task without void'().
+(`include file: r_generator.sv line 81, `include file: r_environment.sv line 1, file: tb_ram_controller.sv line 5)
+				rgen.randomize();
+				             |
+ncvlog: *W,FUNTSK (r_generator.sv,90|17): function called as a task without void'().
+(`include file: r_generator.sv line 90, `include file: r_environment.sv line 1, file: tb_ram_controller.sv line 5)
+				rgen.randomize();
+				             |
+ncvlog: *W,FUNTSK (r_generator.sv,99|17): function called as a task without void'().
+(`include file: r_generator.sv line 99, `include file: r_environment.sv line 1, file: tb_ram_controller.sv line 5)
+				rgen.randomize();
+				             |
+ncvlog: *W,FUNTSK (r_generator.sv,108|17): function called as a task without void'().
+(`include file: r_generator.sv line 108, `include file: r_environment.sv line 1, file: tb_ram_controller.sv line 5)
+				rgen.randomize();
+				             |
+ncvlog: *W,FUNTSK (r_generator.sv,117|17): function called as a task without void'().
+(`include file: r_generator.sv line 117, `include file: r_environment.sv line 1, file: tb_ram_controller.sv line 5)
+		        ram_interface_driver.datain=4'haabb;
+		                                          |
+ncvlog: *W,INTOVF (r_driver.sv,360|44): bit overflow during conversion from text [2.5(IEEE)] (4 bits).
+(`include file: r_driver.sv line 360, `include file: r_environment.sv line 2, file: tb_ram_controller.sv line 5)
+		        ram_interface_driver.datain=4'h1000;
+		                                          |
+ncvlog: *W,INTOVF (r_driver.sv,362|44): bit overflow during conversion from text [2.5(IEEE)] (4 bits).
+(`include file: r_driver.sv line 362, `include file: r_environment.sv line 2, file: tb_ram_controller.sv line 5)
+		        ram_interface_driver.datain=4'h0002;
+		                                          |
+ncvlog: *W,INTOVF (r_driver.sv,364|44): bit overflow during conversion from text [2.5(IEEE)] (4 bits).
+(`include file: r_driver.sv line 364, `include file: r_environment.sv line 2, file: tb_ram_controller.sv line 5)
+		        ram_interface_driver.datain=4'haabb;
+		                                          |
+ncvlog: *W,INTOVF (r_driver.sv,400|44): bit overflow during conversion from text [2.5(IEEE)] (4 bits).
+(`include file: r_driver.sv line 400, `include file: r_environment.sv line 2, file: tb_ram_controller.sv line 5)
+		        ram_interface_driver.datain=4'h1000;
+		                                          |
+ncvlog: *W,INTOVF (r_driver.sv,402|44): bit overflow during conversion from text [2.5(IEEE)] (4 bits).
+(`include file: r_driver.sv line 402, `include file: r_environment.sv line 2, file: tb_ram_controller.sv line 5)
+		        ram_interface_driver.datain=4'h0002;
+		                                          |
+ncvlog: *W,INTOVF (r_driver.sv,404|44): bit overflow during conversion from text [2.5(IEEE)] (4 bits).
+(`include file: r_driver.sv line 404, `include file: r_environment.sv line 2, file: tb_ram_controller.sv line 5)
+	        bins datain_low = {[0:4'h9999]};
+	                                    |
+ncvlog: *W,INTOVF (r_monitor.sv,15|37): bit overflow during conversion from text [2.5(IEEE)] (4 bits).
+(`include file: r_monitor.sv line 15, `include file: r_environment.sv line 3, file: tb_ram_controller.sv line 5)
+	        bins datain_med = {[4'ha000:4'hc999]};
+	                                  |
+ncvlog: *W,INTOVF (r_monitor.sv,16|35): bit overflow during conversion from text [2.5(IEEE)] (4 bits).
+(`include file: r_monitor.sv line 16, `include file: r_environment.sv line 3, file: tb_ram_controller.sv line 5)
+	        bins datain_med = {[4'ha000:4'hc999]};
+	                                          |
+ncvlog: *W,INTOVF (r_monitor.sv,16|43): bit overflow during conversion from text [2.5(IEEE)] (4 bits).
+(`include file: r_monitor.sv line 16, `include file: r_environment.sv line 3, file: tb_ram_controller.sv line 5)
+	        bins datain_high = {[4'hd000:4'hffff]};}
+	                                   |
+ncvlog: *W,INTOVF (r_monitor.sv,17|36): bit overflow during conversion from text [2.5(IEEE)] (4 bits).
+(`include file: r_monitor.sv line 17, `include file: r_environment.sv line 3, file: tb_ram_controller.sv line 5)
+	        bins datain_high = {[4'hd000:4'hffff]};}
+	                                           |
+ncvlog: *W,INTOVF (r_monitor.sv,17|44): bit overflow during conversion from text [2.5(IEEE)] (4 bits).
+(`include file: r_monitor.sv line 17, `include file: r_environment.sv line 3, file: tb_ram_controller.sv line 5)
+	program worklib.ram_env:sv
+		errors: 0, warnings: 0
+	module worklib.tb_ram_controller:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 23
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		r_package
+		$unit_0x07b9db4f
+		tb_ram_controller
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+	Extracting FSMs for coverage:
+		worklib.ram_controller
+			FSM extracted for state register current_state
+		worklib.ram_env
+		worklib.tb_ram_controller
+	Total FSMs extracted = 1
+					  	next_bank = {rintf.bank_grp,rintf.bank_no};
+					  	            |
+ncelab: *W,ENUMERR (./ram_controller.sv,100|20): This assignment is a violation of SystemVerilog strong typing rules for enumeration datatypes.
+	Building instance overlay tables: ................
+ncelab: *W,COVFHT: FSM hold transitions (transitions to the current state) are not extracted for any FSM in default mode.
+.... Done
+	Enabling instrumentation for coverage types: block expression FSM toggle functional
+ncelab: *W,COVDCL: By default expression coverage is scored only for Verilog logical operators (|| and &&) and VHDL logical operators (OR, AND, NOR, and NAND), and is scored only in condition expressions. To score coverage for other operators and for expressions in other statements, use the "set_expr_coverable_operators" and "set_expr_coverable_statements" coverage configuration file commands with suitable options at elaboration.
+	Generating native compiled code:
+		worklib.\$unit_0x07b9db4f :compilation_unit <0x1cd07cf2>
+			streams:   8, words: 50174
+		worklib.\$unit_0x07b9db4f :compilation_unit <0x2c6a4a73>
+			streams:  10, words: 15855
+		worklib.\$unit_0x07b9db4f :compilation_unit <0x372e85d9>
+			streams:   8, words:  9665
+		worklib.\$unit_0x07b9db4f :compilation_unit <0x47396c0e>
+			streams:   9, words: 234742
+		worklib.\$unit_0x07b9db4f :compilation_unit <0x7935253f>
+			streams:   0, words:     0
+		worklib.r_package:sv <0x10471cea>
+			streams:   7, words:  2130
+		worklib.r_package:sv <0x7c770cf0>
+			streams:   0, words:     0
+		worklib.ram_controller:sv <0x185a3679>
+			streams:  32, words: 57367
+		worklib.ram_env:sv <0x279b67b6>
+			streams:   8, words: 13046
+		worklib.tb_ram_controller:sv <0x2c69a6f8>
+			streams:   6, words:  3670
+	logic [15:0]bank0_0[7:0][7:0];
+	                  |
+ncelab: *W,COVMDD (./ram_controller.sv,22|19): Toggle coverage for bit, logic, reg, wire, and struct multi-dimensional static arrays and vectors is not supported by default. To enable toggle coverage on for these types specify 'set_toggle_scoring -sv_mda [<max_bit_base2_exponent>] [-sv_mda_of_struct]' ccf command in the coverage configuration file.
+ncelab: *W,COVNOEN: By default, toggle coverage is not supported for systemverilog enumerated nets and variables. To enable toggle coverage of these objects, specify the 'set_toggle_scoring -sv_enum' command in the coverage configuration file.
+	Building instance specific data structures.
+ncelab: *W,CGPIDF: Covergroup "per_instance" option , by default, is set as 0.
+ncelab: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+ncelab: *W,OBINRGT: (File: ./r_monitor.sv, Line : 15): Some of the values in bin range '[0 : 9]' of bin 'worklib.$unit_0x07b9db4f::r_monitor::\rmon_cov .datain.datain_low' are not within the possible values that coverpoint can store. Range will be modified to '[0 : 7]'.
+ncelab: *W,OBINRGT: (File: ./r_monitor.sv, Line : 16): Some of the values in bin range '[0 : 9]' of bin 'worklib.$unit_0x07b9db4f::r_monitor::\rmon_cov .datain.datain_med' are not within the possible values that coverpoint can store. Range will be modified to '[0 : 7]'.
+ncelab: *W,OBINRGT: (File: ./r_monitor.sv, Line : 17): Some of the values in bin range '[0 : 15]' of bin 'worklib.$unit_0x07b9db4f::r_monitor::\rmon_cov .datain.datain_high' are not within the possible values that coverpoint can store. Range will be modified to '[0 : 7]'.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                    2       2
+		Interfaces:                 1       1
+		Programs:                   1       1
+		Verilog packages:           1       1
+		Registers:                 66      94
+		Scalar wires:               3       -
+		Always blocks:              3       3
+		Initial blocks:            12      12
+		Pseudo assignments:         3       3
+		Covergroup Instances:       0       1
+		Compilation units:          1       1
+		SV Class declarations:      5       5
+		SV Class specializations:   5       5
+	Writing initial simulation snapshot: worklib.tb_ram_controller:sv
+SVSEED default: 1
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+stop -create -name Randomize -randomize
+Created stop Randomize
+
+time: 0 [GENERATOR] RW_BURST operation is in progress
+time: 139 [DRIVER] Read - write  operation is initiated. DATA_IN=f7bb, Row_Address=4, Col_Address=6 DATA_OUT=xxxx
+in idle and refresh_next
+REFRESH STATE in progress
+REFRESH STATE in progress
+REFRESH STATE in progress
+REFRESH STATE in progress
+REFRESH STATE in progress
+REFRESH STATE in progress
+REFRESH STATE in progress
+REFRESH STATE in progress
+REFRESH STATE in progress
+REFRESH STATE in progress
+Simulation complete via $finish(1) at time 800 NS + 0
+./tb_ram_controller.sv:30     #800 $finish;
+ncsim> coverage -analyze
+ncsim: *N,COVCGN: Coverage configuration file command "set_covergroup -new_instance_reporting" can be specified to improve the scoping and naming of covergroup instances. It may be noted that subsequent merging of a coverage database saved with this command and a coverage database saved without this command is not allowed.
+ncsim: *W,CGPIZE: Instance coverage for covergroup instance "rmon_cov" will not be dumped to database as per_instance option value is set to 0:./r_monitor.sv, 6.
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  tb_ram_controller(tb_ram_controller)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_1abfff38_33f0cfb9.ucm
+  data               :  ./cov_work/scope/test/icc_1abfff38_33f0cfb9.ucd
+
+Launching IMC...
+
+ncsim> 
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  tb_ram_controller(tb_ram_controller)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_1abfff38_33f0cfb9.ucm (reused)
+  data               :  ./cov_work/scope/test/icc_1abfff38_33f0cfb9.ucd
+TOOL:	irun(64)	15.20-s086: Exiting on Dec 26, 2022 at 17:00:37 IST  (total: 00:55:58)
