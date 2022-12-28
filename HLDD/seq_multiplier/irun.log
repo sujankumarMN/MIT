@@ -1,0 +1,62 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Dec 26, 2022 at 22:55:50 IST
+irun
+	+access+rwc
+	regA_tb.sv
+	+gui
+file: regA_tb.sv
+	module worklib.regA_tb:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		regA_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	data_path dut(.*);
+	               |
+ncelab: *W,CUVMPW (./regA_tb.sv,19|16): port sizes differ in port connection for child port:  product (2/4).
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.comparator:sv <0x21117c52>
+			streams:   1, words:   348
+		worklib.data_path:sv <0x711394c9>
+			streams:   6, words:  1751
+		worklib.regA:sv <0x427d68b5>
+			streams:   1, words:   265
+		worklib.regA_tb:sv <0x4e855fb2>
+			streams:  14, words:  6526
+		worklib.regB:sv <0x21b38a92>
+			streams:   1, words:   625
+		worklib.regF:sv <0x270bcc46>
+			streams:   1, words:   569
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              6       6
+		Registers:           21      21
+		Scalar wires:        10       -
+		Vectored wires:      13       -
+		Always blocks:        5       5
+		Initial blocks:       3       3
+		Pseudo assignments:  16      16
+	Writing initial simulation snapshot: worklib.regA_tb:sv
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm regA_tb.dut.A regA_tb.dut.B regA_tb.dut.P regA_tb.dut.Q regA_tb.dut.clear regA_tb.dut.clk regA_tb.dut.decB regA_tb.dut.loadA regA_tb.dut.loadB regA_tb.dut.loadF regA_tb.dut.product regA_tb.dut.zero
+Created probe 1
+ncsim> run
+Simulation complete via $finish(1) at time 200 NS + 0
+./regA_tb.sv:46 		#200 $finish;
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	irun(64)	15.20-s086: Exiting on Dec 26, 2022 at 22:56:16 IST  (total: 00:00:26)

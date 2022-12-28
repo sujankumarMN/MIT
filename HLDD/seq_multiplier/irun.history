@@ -1,0 +1,13 @@
+s1(07Dec2022:19:27:37):  irun +access+rwc regA.sv regA_tb.sv +gui 
+s2(07Dec2022:19:31:44):  irun +access+rwc regA.sv regA_tb.sv +gui 
+s3(07Dec2022:19:39:01):  irun +access+rwc regA.sv regA_tb.sv +gui 
+s4(07Dec2022:19:44:30):  irun +access+rwc regA.sv regA_tb.sv +gui 
+s5(07Dec2022:19:46:13):  irun +access+rwc regA.sv regA_tb.sv +gui 
+s6(07Dec2022:19:49:26):  irun +access+rwc regA.sv regA_tb.sv +gui 
+s7(07Dec2022:19:51:53):  irun +access+rwc regA.sv regA_tb.sv +gui 
+s8(07Dec2022:19:54:03):  irun +access+rwc regA.sv regA_tb.sv +gui 
+s9(07Dec2022:19:58:51):  irun +access+rwc regA.sv regA_tb.sv +gui 
+s10(07Dec2022:20:05:47):  irun +access+rwc regA.sv regA_tb.sv +gui 
+s11(26Dec2022:21:05:28):  irun +access+rwc regA_tb.sv regA.sv controlpath.sv 
+s12(26Dec2022:21:10:56):  irun +access+rwc datapath.sv testbench.sv controlpath.sv 
+s13(26Dec2022:22:55:50):  irun +access+rwc regA_tb.sv +gui 

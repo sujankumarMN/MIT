@@ -1,0 +1,146 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Dec 26, 2022 at 20:59:39 IST
+irun
+	+access+rwc
+	testbench.sv
+Recompiling... reason: file './mul_monitor.sv' is newer than expected.
+	expected: Mon Dec 26 20:59:23 2022
+	actual:   Mon Dec 26 20:59:38 2022
+file: testbench.sv
+	logic [1:0]A;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,4|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'A') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 12, file: testbench.sv line 3)
+	logic [1:0]P;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,5|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'P') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 12, file: testbench.sv line 3)
+	logic clk,loadA;	
+	        |
+ncvlog: *W,ILLPDX (datapath.sv,6|9): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'clk') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 12, file: testbench.sv line 3)
+	logic clk,loadA;	
+	              |
+ncvlog: *W,ILLPDX (datapath.sv,6|15): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'loadA') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 12, file: testbench.sv line 3)
+	logic [1:0]B;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,16|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'B') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 36, file: testbench.sv line 3)
+	logic [1:0]Q;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,17|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'Q') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 36, file: testbench.sv line 3)
+	logic clk,loadB,decB;
+	        |
+ncvlog: *W,ILLPDX (datapath.sv,18|9): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'clk') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 36, file: testbench.sv line 3)
+	logic clk,loadB,decB;
+	              |
+ncvlog: *W,ILLPDX (datapath.sv,18|15): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'loadB') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 36, file: testbench.sv line 3)
+	logic clk,loadB,decB;
+	                   |
+ncvlog: *W,ILLPDX (datapath.sv,18|20): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'decB') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 36, file: testbench.sv line 3)
+	logic [1:0]P,Q;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,39|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'P') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 53, file: testbench.sv line 3)
+	logic [3:0]product;
+	                 |
+ncvlog: *W,ILLPDX (datapath.sv,40|18): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'product') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 53, file: testbench.sv line 3)
+	logic loadF,clear,clk;
+	          |
+ncvlog: *W,ILLPDX (datapath.sv,41|11): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'loadF') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 53, file: testbench.sv line 3)
+	logic loadF,clear,clk;
+	                    |
+ncvlog: *W,ILLPDX (datapath.sv,41|21): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'clk') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 53, file: testbench.sv line 3)
+	logic [1:0]B;
+	           |
+ncvlog: *W,ILLPDX (datapath.sv,56|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'B') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 63, file: testbench.sv line 3)
+	logic zero;
+	         |
+ncvlog: *W,ILLPDX (datapath.sv,57|10): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'zero') [12.3.4(IEEE-2001)].
+(`include file: datapath.sv line 63, file: testbench.sv line 3)
+	mgen.randomize();
+	             |
+ncvlog: *W,FUNTSK (mul_generator.sv,16|14): function called as a task without void'().
+(`include file: mul_generator.sv line 16, `include file: mul_environment.sv line 1, file: testbench.sv line 6)
+endclass;
+        |
+ncvlog: *W,UEXPSC (mul_monitor.sv,12|8): Ignored unexpected semicolon following SystemVerilog description keyword (endclass).
+(`include file: mul_monitor.sv line 12, `include file: mul_environment.sv line 3, file: testbench.sv line 6)
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		mul_package
+		$unit_0x43201334
+		regA_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.\$unit_0x43201334 :compilation_unit <0x15eb4743>
+			streams:   9, words:  9820
+		worklib.\$unit_0x43201334 :compilation_unit <0x6bba2653>
+			streams:   8, words:  6520
+		worklib.\$unit_0x43201334 :compilation_unit <0x71d50641>
+			streams:   0, words:     0
+		worklib.\$unit_0x43201334 :compilation_unit <0x78d28b28>
+			streams:   8, words:  6100
+		worklib.\$unit_0x43201334 :compilation_unit <0x7fb7508b>
+			streams:   8, words: 11817
+		worklib.comparator:sv <0x23ccd7a7>
+			streams:   2, words:   420
+		worklib.controlpath:sv <0x70b677ff>
+			streams:   2, words:  3554
+		worklib.data_path:sv <0x1f970666>
+			streams:  12, words:  2432
+		worklib.mul_environment:sv <0x3fd417da>
+			streams:   9, words:  8382
+		worklib.regA:sv <0x44f909a3>
+			streams:   2, words:   425
+		worklib.regA_tb:sv <0x37abb247>
+			streams:   5, words:  1990
+		worklib.regB:sv <0x74d37113>
+			streams:   2, words:   672
+		worklib.regF:sv <0x07c17f99>
+			streams:   2, words:   499
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                    7       7
+		Interfaces:                 1       1
+		Programs:                   1       1
+		Verilog packages:           1       1
+		Registers:                 53      76
+		Scalar wires:               8       -
+		Vectored wires:            10       -
+		Always blocks:              7       7
+		Initial blocks:            11      11
+		Parallel blocks:            1       1
+		Pseudo assignments:        13      13
+		Compilation units:          1       1
+		SV Class declarations:      5       5
+		SV Class specializations:   5       5
+	Writing initial simulation snapshot: worklib.regA_tb:sv
+Loading snapshot worklib.regA_tb:sv .................... Done
+SVSEED default: 1
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+[GENERATOR] A and B generated. A= 2, B=1 
+[DRIVER] values in interface--> A=2,B=1
+[MONITOR] A=2 x B=1 === product =2
+[SCOREBOARD] A=2,B=1,product=2
+Simulation complete via $finish(1) at time 200 NS + 0
+./testbench.sv:33 		#200 $finish;
+ncsim> exit
+TOOL:	irun(64)	15.20-s086: Exiting on Dec 26, 2022 at 20:59:44 IST  (total: 00:00:05)

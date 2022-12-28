@@ -1,0 +1,62 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Nov 30, 2022 at 10:49:49 IST
+irun
+	+access+rwc
+	mod5.sv
+	mod5_tb.sv
+	+gui
+Recompiling... reason: file './mod5_tb.sv' is newer than expected.
+	expected: Wed Nov 30 10:48:24 2022
+	actual:   Wed Nov 30 10:49:03 2022
+file: mod5.sv
+	logic clk,rst;
+	        |
+ncvlog: *W,ILLPDX (mod5.sv,2|9): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'clk') [12.3.4(IEEE-2001)].
+	logic clk,rst;
+	            |
+ncvlog: *W,ILLPDX (mod5.sv,2|13): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'rst') [12.3.4(IEEE-2001)].
+	logic [2:0]q;
+	           |
+ncvlog: *W,ILLPDX (mod5.sv,3|12): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'q') [12.3.4(IEEE-2001)].
+file: mod5_tb.sv
+	module worklib.mod5_tb:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		mod5_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mod5_tb:sv <0x21eb0920>
+			streams:   7, words:  2738
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           4       4
+		Scalar wires:        2       -
+		Vectored wires:      2       -
+		Always blocks:       2       2
+		Initial blocks:      3       3
+		Pseudo assignments:  3       3
+	Writing initial simulation snapshot: worklib.mod5_tb:sv
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm mod5_tb.dut.clk mod5_tb.dut.q mod5_tb.dut.rst
+Created probe 1
+ncsim> run
+Simulation complete via $finish(1) at time 200 NS + 0
+./mod5_tb.sv:12 	#200 $finish;
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	irun(64)	15.20-s086: Exiting on Nov 30, 2022 at 10:50:15 IST  (total: 00:00:26)
