@@ -1,0 +1,45 @@
+s1(10Oct2022:10:45:05):  irun +access+rwc counter.sv +gui 
+s2(10Oct2022:14:06:32):  irun +access+rwc Acounter.sv test_counter.sv 
+s3(10Oct2022:14:06:50):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s4(10Oct2022:14:08:10):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s5(10Oct2022:14:15:06):  irun +access+rwc divide_by_2.sv +gui 
+s6(10Oct2022:14:18:56):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s7(10Oct2022:14:22:10):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s8(10Oct2022:14:24:48):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s9(10Oct2022:14:25:55):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s10(10Oct2022:14:27:20):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s11(10Oct2022:14:27:55):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s12(10Oct2022:14:30:53):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s13(10Oct2022:14:32:23):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s14(10Oct2022:14:47:34):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s15(10Oct2022:14:58:56):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s16(10Oct2022:15:02:07):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s17(10Oct2022:15:03:03):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s18(10Oct2022:15:05:51):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s19(10Oct2022:15:08:10):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s20(10Oct2022:15:10:55):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s21(10Oct2022:15:12:29):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s22(10Oct2022:15:14:36):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s23(10Oct2022:15:16:11):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s24(10Oct2022:15:17:18):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s25(10Oct2022:15:19:00):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s26(10Oct2022:15:21:24):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s27(10Oct2022:15:24:06):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s28(10Oct2022:15:25:42):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s29(10Oct2022:15:25:58):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s30(10Oct2022:15:27:57):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s31(10Oct2022:15:29:54):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s32(10Oct2022:15:32:57):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s33(10Oct2022:15:34:12):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s34(10Oct2022:15:40:41):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s35(10Oct2022:15:42:43):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s36(10Oct2022:15:44:38):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s37(10Oct2022:15:48:08):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s38(10Oct2022:15:56:04):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s39(10Oct2022:16:03:27):  irun + access+rwc Acounter.sv test_Acounter.sv +gui 
+s40(10Oct2022:16:03:52):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s41(10Oct2022:16:07:10):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s42(10Oct2022:16:07:52):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 
+s43(18Oct2022:15:30:09):  irun +access+rwc counter.sv counter_tb.sv 
+s44(18Oct2022:15:30:40):  irun +access+rwc Acounter.sv test_Acounter.sv 
+s45(18Oct2022:15:30:50):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 

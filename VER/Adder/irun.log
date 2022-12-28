@@ -1,0 +1,51 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Oct 04, 2022 at 16:01:40 IST
+irun
+	+access+rwc
+	fadd4.sv
+	test_fadd4.sv
+	+gui
+Recompiling... reason: file './fadd4.sv' is newer than expected.
+	expected: Tue Oct  4 15:40:29 2022
+	actual:   Tue Oct  4 16:00:29 2022
+file: test_fadd4.sv
+	module worklib.test_fadd4:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		test_fadd4
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.test_fadd4:sv <0x1674df09>
+			streams:   4, words:  3168
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             6       3
+		Registers:           3       3
+		Scalar wires:        9       -
+		Expanded wires:      8       2
+		Initial blocks:      1       1
+		Cont. assignments:   0       2
+		Pseudo assignments:  3       3
+	Writing initial simulation snapshot: worklib.test_fadd4:sv
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm test_fadd4.a test_fadd4.b test_fadd4.cin test_fadd4.cout test_fadd4.sum
+Created probe 1
+ncsim> run
+Simulation complete via $finish(1) at time 140 NS + 0
+./test_fadd4.sv:16 #100 $finish;
+ncsim> ^C
+ncsim> exit
+TOOL:	irun(64)	15.20-s086: Exiting on Oct 04, 2022 at 16:02:10 IST  (total: 00:00:30)

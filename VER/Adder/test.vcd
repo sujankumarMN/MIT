@@ -1,0 +1,76 @@
+$date
+    Oct  4, 2022  15:53:03
+$end
+$version
+    TOOL:	ncsim(64)	15.20-s086
+$end
+$timescale
+    1 ns
+$end
+
+$scope module test_fadd $end
+$var reg       1 !    test_a  $end
+$var reg       1 "    test_b  $end
+$var reg       1 #    test_cin  $end
+$var wire      1 $    test_sum  $end
+$var wire      1 %    test_cout  $end
+
+$scope module dut $end
+$var wire      1 &    a  $end
+$var wire      1 '    b  $end
+$var wire      1 (    cin  $end
+$var wire      1 $    sum  $end
+$var wire      1 %    cout  $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+$end
+#5
+1#
+1(
+1$
+#10
+1"
+0#
+0(
+1'
+#15
+1#
+1(
+1%
+0$
+#20
+1!
+0"
+0#
+0(
+0'
+1&
+0%
+1$
+#25
+1#
+1(
+1%
+0$
+#30
+1"
+0#
+0(
+1'
+#35
+1#
+1(
+1$
+#40

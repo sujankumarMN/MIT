@@ -1,0 +1,71 @@
+s1(20Sep2022:14:37:56):  irun +access+rwc test_and_gate.sv and_gate.sv +gui 
+s2(20Sep2022:14:39:48):  irun +access+rwc test_and_gate.sv and_gate.sv +gui 
+s3(20Sep2022:14:44:12):  irun +access+rwc test_and_gate.sv and_gate.sv +gui 
+s4(20Sep2022:14:46:44):  irun +access+rwc test_and_gate.sv and_gate.sv +gui 
+s5(20Sep2022:14:47:54):  irun +access+rwc test_and_gate.sv and_gate.sv +gui 
+s6(20Sep2022:14:50:06):  irun +access+rwc test_and_gate.sv and_gate.sv +gui 
+s7(20Sep2022:14:52:02):  irun +access+rwc test_and_gate.sv and_gate.sv +gui 
+s8(20Sep2022:15:07:38):  irun +access+rwc test_and_agate.sv and_gate.sv +gui 
+s9(20Sep2022:15:07:49):  irun +access+rwc test_and_gate.sv and_gate.sv +gui 
+s10(20Sep2022:15:14:04):  irun +access+rwc test_and_gate.sv and_gate.sv +gui 
+s11(20Sep2022:15:37:26):  irun +access+rwc or_gate.sv test_or_gate.sv +gui 
+s12(20Sep2022:15:37:38):  irun +access+rwc or_gate.sv test_or_gate.sv +gui 
+s13(20Sep2022:15:39:13):  irun +access+rwc or_gate.sv test_or_gate.sv +gui 
+s14(20Sep2022:15:41:10):  irun + access+rwc or_gate.sv test_or_gate.sv +gui 
+s15(20Sep2022:15:41:22):  irun +access+rwc or_gate.sv test_or_gate.sv +gui 
+s16(20Sep2022:15:42:40):  irun + access+rwc or_gate.sv test_or_gate.sv +gui 
+s17(20Sep2022:15:42:46):  irun +access+rwc or_gate.sv test_or_gate.sv +gui 
+s18(20Sep2022:15:45:57):  irun +access+rwc or_gate.sv test_or_gate.sv +gui 
+s19(20Sep2022:15:46:28):  irun +access+rwc or_gate.sv test_or_gate.sv +gui 
+s20(20Sep2022:15:47:23):  irun +access+rwc or_gate.sv test_or_gate.sv +gui 
+s21(20Sep2022:16:11:56):  irun +access+rwc and_o_gate.sv test_and_gate_o_gate.sv +gui 
+s22(20Sep2022:16:12:24):  irun +access+rwc and_gate_o_gate.sv test_and_gate_o_and_gate.sv +gui 
+s23(20Sep2022:16:12:37):  irun +access+rwc and_gate_o_and_gate.sv test_and_gate_o_and_gate.sv +gui 
+s24(20Sep2022:16:13:00):  irun +access+rwc and_gate_o_and_gate.sv test_and_gate_o_and_gate.sv +gui 
+s25(20Sep2022:16:13:39):  irun +access+rwc and_gate_o_and_gate.sv test_and_gate_o_and_gate.sv +gui 
+s26(20Sep2022:16:34:04):  irun +access+rwc and_gate.sv test_and_gate.sv +gui 
+s27(20Sep2022:16:39:43):  irun +access+rwc and_gate.sv test_and_gate.sv +gui 
+s28(22Sep2022:11:02:27):  irun +access+rwc test_op.sv 
+s29(22Sep2022:11:04:04):  irun +access+rwc test_op.sv 
+s30(22Sep2022:11:04:35):  irun +access+rwc test_op.sv 
+s31(22Sep2022:11:07:59):  irun +access+rwc test_op.sv 
+s32(22Sep2022:11:08:53):  irun +access+rwc test_op.sv 
+s33(22Sep2022:11:09:18):  irun +access+rwc test_op.sv 
+s34(22Sep2022:11:09:58):  irun +access+rwc test_op.sv 
+s35(22Sep2022:11:10:50):  irun +access+rwc test_op.sv 
+s36(22Sep2022:11:11:29):  irun +access+rwc test_op.sv 
+s37(23Sep2022:14:15:03):  irun +access+rwc and_gate.sv test_and_gate.sv +gui 
+s38(23Sep2022:14:15:51):  irun +access+rwc and_gate.sv test_and_gate.sv +gui 
+s39(23Sep2022:14:17:43):  irun +access+rwc and_gate.sv test_and_gate.sv +gui 
+s40(23Sep2022:14:19:04):  irun +access+rwc and_gate.sv test_and_gate.sv +gui 
+s41(23Sep2022:14:19:24):  irun +access+rwc and_gate.sv test_and_gate.sv +gui 
+s42(23Sep2022:14:25:08):  irun +access+rwc test_o.sv 
+s43(23Sep2022:14:25:14):  irun +access+rwc test_op.sv 
+s44(23Sep2022:14:26:11):  irun +access+rwc test_op.sv 
+s45(23Sep2022:14:26:29):  irun +access+rwc test_op.sv 
+s46(23Sep2022:14:26:51):  irun +access+rwc test_op.sv 
+s47(23Sep2022:14:27:10):  irun +access+rwc test_op.sv 
+s48(23Sep2022:14:27:38):  irun +access+rwc test_op.sv 
+s49(23Sep2022:14:28:29):  irun +access+rwc test_op.sv 
+s50(23Sep2022:14:29:23):  irun +access+rwc test_op.sv 
+s51(23Sep2022:14:30:42):  irun +access+rwc test_op.sv 
+s52(23Sep2022:14:31:16):  irun +access+rwc test_op.sv 
+s53(23Sep2022:14:32:28):  irun +access+rwc test_op.sv 
+s54(23Sep2022:14:33:25):  irun +access+rwc test_op.sv 
+s55(23Sep2022:14:46:02):  irun +access+rwc fadd.sv test_fadd.sv +gui 
+s56(23Sep2022:14:47:39):  irun +access+rwc fadd.sv test_fadd.sv +gui 
+s57(23Sep2022:14:48:50):  irun +access+rwc fadd.sv test_fadd.sv +gui 
+s58(23Sep2022:14:49:59):  irun +access+rwc fadd.sv test_fadd.sv +gui 
+s59(23Sep2022:14:50:17):  irun +access+rwc fadd.sv test_fadd.sv +gui 
+s60(23Sep2022:14:51:45):  irun +access+rwc fadd.sv test_fadd.sv +gui 
+s61(23Sep2022:14:52:11):  irun +access+rwc fadd.sv test_fadd.sv +gui 
+s62(23Sep2022:14:56:10):  irun +access+rwc fadd.sv test_fadd.sv +gui 
+s63(23Sep2022:14:58:33):  irun +access+rwc fadd.sv test_fadd.sv +gui 
+s64(23Sep2022:15:11:03):  irun +access+rwc fadd.sv test_fadd.sv +gui 
+s65(23Sep2022:15:49:04):  irun +access+rwc d_ff.sv test_d_ff.sv +gui 
+s66(23Sep2022:15:49:57):  irun +access+rwc d_ff.sv test_d_ff.sv +gui 
+s67(23Sep2022:15:50:32):  irun +access+rwc d_ff.sv test_d_ff.sv +gui 
+s68(23Sep2022:15:54:24):  irun +access+rwc d_ff.sv test_d_ff.sv +gui 
+s69(23Sep2022:15:56:44):  irun +access+rwc d_ff.sv test_d_ff.sv +gui 
+s70(04Oct2022:16:32:54):  irun +access+rwc 
+s71(04Oct2022:16:33:52):  irun +access+rwc fadd4.sv test_fadd4.sv +gui 

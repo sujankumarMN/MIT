@@ -1,0 +1,44 @@
+$date
+    Sep 20, 2022  15:47:41
+$end
+$version
+    TOOL:	ncsim(64)	15.20-s086
+$end
+$timescale
+    1 ns
+$end
+
+$scope module test_or_gate $end
+$var reg       1 !    test_a  $end
+$var reg       1 "    test_b  $end
+$var wire      1 #    test_out  $end
+
+$scope module dut1 $end
+$var wire      1 $    a  $end
+$var wire      1 %    b  $end
+$var wire      1 #    out  $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+$end
+#5
+1"
+1%
+1#
+#10
+1!
+0"
+0%
+1$
+#15
+1"
+1%
+#20
