@@ -1,0 +1,54 @@
+s1(15Dec2022:15:51:13):  irun +access+rwc testbench.sv +gui 
+s2(15Dec2022:15:51:32):  irun +access+rwc testbench.sv controller.sv +gui 
+s3(15Dec2022:15:52:12):  irun +access+rwc testbench.sv controller.sv ddr4_package.pkg +gui 
+s4(15Dec2022:15:52:30):  irun +access+rwc testbench.sv controller.sv clock.sv +gui 
+s5(15Dec2022:16:00:15):  irun +access+rwc testbench.sv controller.sv clock.sv +gui 
+s6(15Dec2022:16:07:52):  irun +access+rwc testbench.sv controller.sv clock.sv +gui 
+s7(15Dec2022:16:23:05):  irun +access+rwc testbench.sv controller.sv clock.sv +gui 
+s8(15Dec2022:20:05:30):  irun +access+rwc testbench.sv controller.sv clock.sv +gui 
+s9(16Dec2022:14:56:48):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s10(16Dec2022:14:59:05):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s11(16Dec2022:15:04:14):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s12(16Dec2022:15:10:25):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s13(16Dec2022:15:12:24):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s14(16Dec2022:15:12:56):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s15(16Dec2022:15:15:55):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s16(16Dec2022:15:16:30):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s17(16Dec2022:15:17:47):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s18(16Dec2022:15:18:43):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s19(16Dec2022:15:18:55):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s20(16Dec2022:15:19:03):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s21(16Dec2022:15:36:32):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s22(16Dec2022:15:54:42):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s23(16Dec2022:15:55:42):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s24(16Dec2022:15:57:26):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s25(16Dec2022:15:58:10):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s26(16Dec2022:15:59:18):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s27(16Dec2022:16:00:42):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s28(16Dec2022:16:01:21):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s29(16Dec2022:16:01:48):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s30(16Dec2022:16:03:07):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s31(16Dec2022:16:50:26):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s32(16Dec2022:16:52:59):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s33(16Dec2022:16:56:27):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s34(16Dec2022:17:25:01):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s35(16Dec2022:17:28:37):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s36(16Dec2022:17:33:17):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s37(16Dec2022:18:08:22):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s38(16Dec2022:18:08:54):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s39(16Dec2022:18:11:35):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s40(16Dec2022:18:13:39):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s41(16Dec2022:18:18:02):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s42(16Dec2022:18:26:04):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s43(16Dec2022:18:31:27):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s44(16Dec2022:18:51:12):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s45(16Dec2022:18:51:30):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s46(16Dec2022:18:53:47):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s47(16Dec2022:18:56:42):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s48(16Dec2022:19:28:52):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s49(16Dec2022:19:31:24):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s50(16Dec2022:19:37:42):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s51(16Dec2022:19:41:01):  irun +access+rwc controller.sv testbench.sv clock.sv +gui 
+s52(16Dec2022:21:29:33):  irun +access+rwc testbench.sv controller.sv clock.sv 
+s53(16Dec2022:21:29:52):  irun +access+rwc testbench.sv controller.sv clock.sv+gui 
+s54(16Dec2022:21:29:59):  irun +access+rwc testbench.sv controller.sv clock.sv +gui 

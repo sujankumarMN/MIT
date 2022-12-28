@@ -1,0 +1,50 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Dec 16, 2022 at 21:29:59 IST
+irun
+	+access+rwc
+	testbench.sv
+	controller.sv
+	clock.sv
+	+gui
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm testbench.c1.a9_0 testbench.c1.a11 testbench.c1.a13 testbench.c1.act_n testbench.c1.ap_a10 testbench.c1.b_select_temp testbench.c1.bank0_0 testbench.c1.bank0_1 testbench.c1.bank0_2 testbench.c1.bank0_3 testbench.c1.bank1_0 testbench.c1.bank1_1 testbench.c1.bank1_2 testbench.c1.bank1_3 testbench.c1.bank_group_select testbench.c1.bank_select testbench.c1.bc_n_a12 testbench.c1.bgs_temp testbench.c1.cas_n_a15 testbench.c1.ck_c testbench.c1.ck_t testbench.c1.cke testbench.c1.cs_n testbench.c1.cur_bank testbench.c1.data_in testbench.c1.data_out testbench.c1.flag testbench.c1.next_bank testbench.c1.ras_n_a16 testbench.c1.refresh testbench.c1.reset_n testbench.c1.row_addr testbench.c1.row_buffer testbench.c1.we_n_a14
+Created probe 1
+ncsim> run
+[$monitor] Time = 0.00ns, Present_State = 0, Next_state = 0 
+[$monitor] Time = 10.00ns, Present_State = 0, Next_state = 8 
+[$monitor] Time = 25.00ns, Present_State = 8, Next_state = 2 
+[$monitor] Time = 115.00ns, Present_State = 2, Next_state = 0 
+[$monitor] Time = 125.00ns, Present_State = 0, Next_state = 0 
+[$monitor] Time = 210.00ns, Present_State = 0, Next_state = 9 
+[$monitor] Time = 215.00ns, Present_State = 9, Next_state = 9 
+[$monitor] Time = 220.00ns, Present_State = 9, Next_state = 0 
+[$monitor] Time = 225.00ns, Present_State = 0, Next_state = 1 
+[$monitor] Time = 235.00ns, Present_State = 1, Next_state = 1 
+address is: 4
+
+[$monitor] Time = 620.00ns, Present_State = 1, Next_state = 3 
+In WRITE datain row buffer is abcd
+entered wait_counter
+[$monitor] Time = 625.00ns, Present_State = 3, Next_state = 3 
+In WRITE datain row buffer is abcd
+entered wait_counter
+[$monitor] Time = 640.00ns, Present_State = 3, Next_state = 8 
+[$monitor] Time = 645.00ns, Present_State = 8, Next_state = 2 
+[$monitor] Time = 705.00ns, Present_State = 2, Next_state = 0 
+[$monitor] Time = 715.00ns, Present_State = 0, Next_state = 0 
+[$monitor] Time = 1110.00ns, Present_State = 0, Next_state = 8 
+[$monitor] Time = 1115.00ns, Present_State = 8, Next_state = 8 
+Simulation complete via $finish(1) at time 10110 NS + 0
+./testbench.sv:43 		#9000 $finish; 
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	irun(64)	15.20-s086: Exiting on Dec 16, 2022 at 21:33:46 IST  (total: 00:03:47)
