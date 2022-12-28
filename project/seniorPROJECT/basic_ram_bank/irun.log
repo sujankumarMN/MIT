@@ -1,0 +1,54 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Nov 10, 2022 at 15:18:13 IST
+irun
+	basic_ram.sv
+	basic_ram_tb.sv
+	-covfile covg.ccf
+	-covoverwrite
+	-coverage b
+Recompiling... reason: file './covg.ccf' is newer than expected.
+	expected: Thu Nov 10 15:15:24 2022
+	actual:   Thu Nov 10 15:18:01 2022
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		basic_ram_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Enabling instrumentation for coverage types: block
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           9       9
+		Scalar wires:        4       -
+		Expanded wires:      4       1
+		Vectored wires:      4       -
+		Always blocks:       2       2
+		Initial blocks:      3       3
+		Pseudo assignments:  7       7
+	Writing initial simulation snapshot: worklib.basic_ram_tb:sv
+Loading snapshot worklib.basic_ram_tb:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,DVEXACC: some objects excluded from $dumpvars due to access restrictions, use +access+r on command line for access to all objects.
+            File: ./basic_ram_tb.sv, line = 20, pos = 9
+           Scope: basic_ram_tb
+            Time: 0 FS + 0
+
+Simulation complete via $finish(1) at time 100 NS + 0
+./basic_ram_tb.sv:21  #100 $finish;
+ncsim> exit
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  basic_ram_tb(basic_ram_tb)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_00f80776_00000000.ucm (reused)
+  data               :  ./cov_work/scope/test/icc_00f80776_00000000.ucd
+TOOL:	irun(64)	15.20-s086: Exiting on Nov 10, 2022 at 15:18:14 IST  (total: 00:00:01)

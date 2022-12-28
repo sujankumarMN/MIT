@@ -1,0 +1,82 @@
+ncverilog(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s086: Started on Nov 10, 2022 at 16:18:48 IST
+ncverilog
+	basic_ram.sv
+	basic_ram_tb.sv
+	+access+rw
+	+nccoverage+all
+	+gui
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+	Extracting FSMs for coverage:
+		worklib.basic_ram
+		worklib.basic_ram_tb
+	Total FSMs extracted = 0
+	Building instance overlay tables: .................... Done
+	Enabling instrumentation for coverage types: block expression FSM toggle functional
+ncelab: *W,COVDCL: By default expression coverage is scored only for Verilog logical operators (|| and &&) and VHDL logical operators (OR, AND, NOR, and NAND), and is scored only in condition expressions. To score coverage for other operators and for expressions in other statements, use the "set_expr_coverable_operators" and "set_expr_coverable_statements" coverage configuration file commands with suitable options at elaboration.
+	Generating native compiled code:
+		worklib.basic_ram:sv <0x4118a87d>
+			streams:   1, words:  2263
+		worklib.basic_ram_tb:sv <0x0a0c00bf>
+			streams:  11, words: 10602
+ wire [3:0]mem[3:0][3:0];
+             |
+ncelab: *W,COVMDD (./basic_ram_tb.sv,6|13): Toggle coverage for bit, logic, reg, wire, and struct multi-dimensional static arrays and vectors is not supported by default. To enable toggle coverage on for these types specify 'set_toggle_scoring -sv_mda [<max_bit_base2_exponent>] [-sv_mda_of_struct]' ccf command in the coverage configuration file.
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           9       9
+		Scalar wires:        4       -
+		Expanded wires:      4       1
+		Vectored wires:      4       -
+		Always blocks:       2       2
+		Initial blocks:      3       3
+		Pseudo assignments:  7       7
+	Writing initial simulation snapshot: worklib.basic_ram_tb:sv
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm basic_ram_tb.addr_col basic_ram_tb.addr_row basic_ram_tb.clk basic_ram_tb.cs basic_ram_tb.datain basic_ram_tb.dataout basic_ram_tb.mem basic_ram_tb.oe basic_ram_tb.we
+Created probe 1
+ncsim> run
+ncsim: *E,C58EXE: Coverage database file already exists in the test output directory './cov_work/scope/test', and will not be overwritten. Specify a different name for the test output directory or use the '-covoverwrite' option to overwrite the existing test output directory, and rerun the simulation.
+Simulation complete via $finish(1) at time 100 NS + 0
+./basic_ram_tb.sv:21  #100 $finish;
+ncsim> coverage -analyze
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  basic_ram_tb(basic_ram_tb)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_359af739_00000000.ucm
+  data               :  ./cov_work/scope/test/icc_359af739_00000000.ucd
+
+Launching IMC...
+
+ncsim> ncsim: *W,NCTERM: Simulation received SIGTERM signal from process 1, user id 0 (/usr/lib/systemd/systemd).
+
+coverage setup:
+  workdir  :  ./cov_work
+  dutinst  :  basic_ram_tb(basic_ram_tb)
+  scope    :  scope
+  testname :  test
+
+coverage files:
+  model(design data) :  ./cov_work/scope/icc_359af739_00000000.ucm
+  data               :  ./cov_work/scope/test/icc_359af739_00000000.ucd
+...Regained control from SimVision
+-------------------------------------
+TOOL:	ncverilog	15.20-s086: Exiting on Nov 10, 2022 at 17:50:05 IST  (total: 01:31:17)

@@ -1,0 +1,12 @@
+s1(10Nov2022:14:30:16):  irun +access+rwc basic_ram.sv basic_ram_tb.sv +gui 
+s2(10Nov2022:14:55:40):  irun basic_ram.sv basic_ram_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s3(10Nov2022:14:57:43):  irun basic_ram.sv basic_ram_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s4(10Nov2022:15:07:21):  irun basic_ram.sv basic_ram_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s5(10Nov2022:15:13:36):  irun basic_ram.sv basic_ram_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s6(10Nov2022:15:14:38):  irun basic_ram.sv basic_ram_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s7(10Nov2022:15:15:29):  irun basic_ram.sv basic_ram_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s8(10Nov2022:15:17:44):  irun basic_ram.sv basic_ram_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s9(10Nov2022:15:18:13):  irun basic_ram.sv basic_ram_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s10(10Nov2022:16:12:18):  ncverilog basic_ram.sv basic_ram_tb.sv counter.v +access+rw +nccoverage+fsm +gui 
+s11(10Nov2022:16:12:30):  ncverilog basic_ram.sv basic_ram_tb.sv +access+rw +nccoverage+fsm +gui 
+s12(10Nov2022:16:18:48):  ncverilog basic_ram.sv basic_ram_tb.sv +access+rw +nccoverage+all +gui 

@@ -1,0 +1,27 @@
+s1(08Nov2022:20:30:03):  irun basic_ram.sv -covfile covg.ccf -covoverwrite -coverage b 
+s2(08Nov2022:20:32:04):  irun basic_ram.sv basic_sv_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s3(08Nov2022:20:32:27):  irun basic_ram.sv basic_ram_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s4(09Nov2022:17:33:52):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s5(09Nov2022:17:35:04):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s6(09Nov2022:17:35:43):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s7(09Nov2022:17:37:43):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s8(09Nov2022:17:42:56):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s9(09Nov2022:17:44:30):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s10(09Nov2022:17:45:20):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s11(09Nov2022:17:46:30):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s12(09Nov2022:17:50:42):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s13(09Nov2022:17:54:52):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s14(09Nov2022:17:55:01):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s15(09Nov2022:17:55:13):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s16(09Nov2022:17:59:06):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s17(09Nov2022:18:00:05):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s18(09Nov2022:18:01:07):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s19(09Nov2022:18:02:08):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s20(09Nov2022:18:04:07):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s21(09Nov2022:18:24:44):  irun basic_ram_mem.sv basic_ram_tb_mem.sv -covfile covg.ccf -covoverwrite b 
+s22(09Nov2022:18:25:21):  irun basic_ram_mem.sv basic_ram_tb_mem.sv -covfile covg.ccf -covoverwrite coverage b 
+s23(09Nov2022:18:25:47):  irun basic_ram_mem.sv basic_ram_tb_mem.sv -covfile covg.ccf -covoverwrite -coverage b 
+s24(09Nov2022:18:26:42):  irun basic_ram.sv basic_ram_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s25(09Nov2022:19:21:12):  irun basic_ram_mem.sv basic_ram_tb_mem.sv -covfile covg.ccf -covoverwrite -coverage b 
+s26(09Nov2022:19:54:30):  irun +access+rwc basic_ram_mem.sv basic_ram_tb_mem.sv +gui 
+s27(09Nov2022:19:54:53):  irun +access+rwc basic_ram.sv basic_ram_tb.sv +gui 
