@@ -1,0 +1,53 @@
+s1(29Nov2022:14:42:30):  irun +access+rwc counter_tb.sv +gui 
+s2(29Nov2022:14:43:30):  irun +access+rwc counter_tb.sv +gui 
+s3(29Nov2022:14:46:55):  irun +access+rwc counter_tb.sv +gui 
+s4(29Nov2022:14:47:11):  irun +access+rwc counter_tb.sv +gui 
+s5(29Nov2022:14:48:27):  irun +access+rwc counter_tb.sv +gui 
+s6(29Nov2022:14:50:41):  irun +access+rwc counter_tb.sv +gui 
+s7(29Nov2022:14:50:52):  irun +access+rwc counter_tb.sv +gui 
+s8(29Nov2022:14:51:44):  irun +access+rwc counter_tb.sv +gui 
+s9(29Nov2022:14:53:25):  irun +access+rwc counter_tb.sv +gui 
+s10(29Nov2022:14:54:25):  irun +access+rwc counter_tb.sv +gui 
+s11(29Nov2022:15:20:38):  irun +access+rwc counter_tb.sv +gui 
+s12(29Nov2022:15:21:04):  irun +access+rwc counter_tb.sv +gui 
+s13(29Nov2022:15:21:17):  irun +access+rwc counter_tb.sv +gui 
+s14(29Nov2022:15:21:41):  irun +access+rwc counter_tb.sv +gui 
+s15(29Nov2022:15:22:07):  irun +access+rwc counter_tb.sv +up_count +gui 
+s16(29Nov2022:15:24:56):  irun +access+rwc counter_tb.sv +up_count +gui 
+s17(29Nov2022:15:25:04):  irun +access+rwc counter_tb.sv +up_count +gui 
+s18(29Nov2022:15:25:44):  irun +access+rwc counter_tb.sv +up_count +gui 
+s19(29Nov2022:15:26:42):  irun +access+rwc counter_tb.sv +up_count +gui 
+s20(29Nov2022:15:26:51):  irun +access+rwc counter_tb.sv +up_count +gui 
+s21(29Nov2022:15:27:04):  irun +access+rwc counter_tb.sv +gui 
+s22(29Nov2022:15:27:47):  irun +access+rwc counter_tb.sv +gui 
+s23(29Nov2022:15:29:10):  irun +access+rwc counter_tb.sv +gui 
+s24(29Nov2022:15:30:44):  irun +access+rwc counter_tb.sv +gui 
+s25(29Nov2022:15:31:20):  irun +access+rwc counter_tb.sv +up_count +gui 
+s26(29Nov2022:15:32:54):  irun +access+rwc counter_tb.sv +up_count +gui 
+s27(29Nov2022:15:33:20):  irun +access+rwc counter_tb.sv +up_count +gui 
+s28(29Nov2022:15:34:47):  irun +access+rwc counter_tb.sv +up_count +gui 
+s29(29Nov2022:15:35:07):  irun +access+rwc counter_tb.sv +up_count +gui 
+s30(29Nov2022:15:35:30):  irun +access+rwc counter_tb.sv +up_count +gui 
+s31(29Nov2022:15:36:05):  irun +access+rwc counter_tb.sv +up_count +gui 
+s32(29Nov2022:15:36:58):  irun +access+rwc counter_tb.sv +up_count +gui 
+s33(29Nov2022:15:37:06):  irun +access+rwc counter_tb.sv +up_count +gui 
+s34(29Nov2022:15:38:14):  irun +access+rwc counter_tb.sv +up_count +gui 
+s35(29Nov2022:15:38:25):  irun +access+rwc counter_tb.sv +up_count +gui 
+s36(29Nov2022:15:39:44):  irun +access+rwc counter_tb.sv +up_count +gui 
+s37(29Nov2022:15:41:14):  irun +access+rwc counter_tb.sv +up_count +gui 
+s38(29Nov2022:15:42:35):  irun +access+rwc counter_tb.sv +down_count +gui 
+s39(29Nov2022:15:43:22):  irun +access+rwc counter_tb.sv +down_count +gui 
+s40(29Nov2022:15:44:16):  irun +access+rwc counter_tb.sv +reset +gui 
+s41(29Nov2022:15:45:59):  ncverilog counter_tb.sv +access+rw +nccoverage+all +gui 
+s42(29Nov2022:15:48:15):  irun +access+rwc counter_tb.sv +down_count +gui 
+s43(30Nov2022:11:59:33):  irun +access+rwc counter.sv counter_tb.sv +down_count +gui 
+s44(30Nov2022:12:00:37):  irun +access+rwc counter.sv counter_tb.sv +up_count +gui 
+s45(30Nov2022:12:01:42):  irun +access+rwc counter.sv counter_tb.sv +up_count +gui 
+s46(30Nov2022:12:01:59):  irun +access+rwc counter.sv counter_tb.sv +up_count +gui -ALLOWREDEFINITION 
+s47(30Nov2022:12:02:59):  irun +access+rwc counter.sv counter_tb.sv +down_count +gui -ALLOWREDEFINITION 
+s48(30Nov2022:12:03:45):  irun +access+rwc counter.sv counter_tb.sv +down_count +gui 
+s49(30Nov2022:12:04:05):  irun +access+rwc counter.sv counter_tb.sv +up_count +gui 
+s50(01Dec2022:19:48:26):  irun +access+rwc counter_tb.sv +up_count +gui 
+s51(01Dec2022:19:52:15):  irun +access+rwc counter_tb.sv +up_count +gui 
+s52(01Dec2022:19:56:30):  irun +access+rwc counter_tb.sv +down_count +gui 
+s53(01Dec2022:20:00:27):  irun +access+rwc ram_tb.sv +self +gui 

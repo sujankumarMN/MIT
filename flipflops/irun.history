@@ -1,0 +1,26 @@
+s1(07Oct2022:14:45:21):  irun +access+rwc if.sv if_tb.sv +gui 
+s2(07Oct2022:14:46:15):  irun +access+rwc if.sv if_tb.sv +gui 
+s3(07Oct2022:14:46:24):  irun +access+rwc if.sv if_tb.sv +gui 
+s4(07Oct2022:14:47:10):  irun +access+rwc if.sv if_tb.sv +gui 
+s5(07Oct2022:14:47:49):  irun +access+rwc if.sv if_tb.sv +gui 
+s6(07Oct2022:14:48:11):  irun +access+rwc if.sv if_tb.sv +gui 
+s7(07Oct2022:14:49:24):  irun +access+rwc if.sv if_tb.sv +gui 
+s8(07Oct2022:14:50:42):  irun +access+rwc if.sv if_tb.sv +gui 
+s9(07Oct2022:14:51:15):  irun +access+rwc if.sv if_tb.sv +gui 
+s10(07Oct2022:14:51:53):  irun +access+rwc if.sv if_tb.sv +gui 
+s11(07Oct2022:14:52:26):  irun +access+rwc if.sv if_tb.sv +gui 
+s12(07Oct2022:14:53:44):  irun +access+rwc if.sv if_tb.sv +gui 
+s13(07Oct2022:14:55:58):  irun +access+rwc if.sv if_tb.sv +gui 
+s14(07Oct2022:14:56:25):  irun +access+rwc if.sv if_tb.sv +gui 
+s15(07Oct2022:15:01:18):  irun +access+rwc if.sv if_tb.sv +gui 
+s16(07Oct2022:15:01:39):  irun +access+rwc if.sv if_tb.sv +gui 
+s17(07Oct2022:15:03:20):  irun +access+rwc if.sv if_tb.sv +gui 
+s18(07Oct2022:15:04:51):  irun +access+rwc if.sv if_tb.sv +gui 
+s19(07Oct2022:15:06:24):  irun +access+rwc if.sv if_tb.sv +gui 
+s20(07Oct2022:15:17:28):  irun if.sv is_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s21(07Oct2022:15:17:38):  irun if.sv if_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s22(07Oct2022:15:37:12):  irun if.sv if_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s23(07Oct2022:15:38:17):  irun if.sv if_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s24(07Oct2022:15:40:07):  irun if.sv if_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s25(07Oct2022:15:52:31):  irun if.sv if_tb.sv -covfile covg.ccf -covoverwrite -coverage b 
+s26(10Oct2022:14:58:36):  irun +access+rwc Acounter.sv test_Acounter.sv +gui 

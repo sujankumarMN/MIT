@@ -1,0 +1,4 @@
+s1(28Sep2022:14:07:07):  irun +access+pwc d_ff.sv test_d_ff.sv +gui 
+s2(28Sep2022:14:07:46):  irun +access+pwc dff.sv dff_tb.sv +gui 
+s3(28Sep2022:14:08:15):  irun +access+pwc dff.v dff_tb.v +gui 
+s4(28Sep2022:14:08:43):  irun +access+rwc dff.v dff_tb.v +gui 

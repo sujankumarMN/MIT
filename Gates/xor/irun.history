@@ -1,0 +1,3 @@
+s1(08Nov2022:15:50:24):  irun +access+rwc xor.sv xor_tb.sv +gui 
+s2(08Nov2022:15:51:05):  irun +access+rwc xor.sv xor_tb.sv +gui 
+s3(08Nov2022:15:52:09):  irun +access+rwc xor.sv xor_tb.sv +gui 

@@ -1,0 +1,75 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Dec 26, 2022 at 15:04:20 IST
+irun
+	+access+rwc
+	ses_top.sv
+	+C
+
+   User defined plus("+") options:
+	+C
+
+Recompiling... reason: file './ses_driver.sv' is newer than expected.
+	expected: Mon Dec 26 15:03:17 2022
+	actual:   Mon Dec 26 15:04:16 2022
+file: ses_top.sv
+		sgen.randomize();
+		             |
+ncvlog: *W,FUNTSK (ses_generator.sv,18|15): function called as a task without void'().
+(`include file: ses_generator.sv line 18, `include file: ses_environment.sv line 3, file: ses_top.sv line 3)
+		sgen.randomize();
+		             |
+ncvlog: *W,FUNTSK (ses_generator.sv,30|15): function called as a task without void'().
+(`include file: ses_generator.sv line 30, `include file: ses_environment.sv line 3, file: ses_top.sv line 3)
+		sgen.randomize();
+		             |
+ncvlog: *W,FUNTSK (ses_generator.sv,43|15): function called as a task without void'().
+(`include file: ses_generator.sv line 43, `include file: ses_environment.sv line 3, file: ses_top.sv line 3)
+	program worklib.ses_environment:sv
+		errors: 0, warnings: 3
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		ses_package
+		$unit_0x61e16e83
+		ses_top
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.ses_environment:sv <0x115ecdbd>
+			streams:  24, words: 35408
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                    1       1
+		Programs:                   1       1
+		Verilog packages:           1       1
+		Registers:                 19      29
+		Initial blocks:             7       7
+		Parallel blocks:            1       1
+		Compilation units:          1       1
+		SV Class declarations:      3       3
+		SV Class specializations:   3       3
+	Writing initial simulation snapshot: worklib.ses_top:sv
+Loading snapshot worklib.ses_top:sv .................... Done
+SVSEED default: 1
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+[GENERATOR] C generated... 
+
+TESTCASE: C
+
+HEADER: 200
+
+PAYLOAD: aa
+
+COMMAND: 100
+
+MASTER_ID: 10
+
+PARITY: 1
+Simulation complete via $finish(1) at time 100 NS + 0
+./ses_top.sv:12 	#100 $finish;
+ncsim> exit
+TOOL:	irun(64)	15.20-s086: Exiting on Dec 26, 2022 at 15:04:22 IST  (total: 00:00:02)
