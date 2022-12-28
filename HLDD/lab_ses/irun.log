@@ -1,0 +1,13 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Dec 01, 2022 at 20:00:27 IST
+irun
+	+access+rwc
+	ram_tb.sv
+	+self
+	+gui
+
+   User defined plus("+") options:
+	+self
+
+irun: *E,FILEMIS: Cannot find the provided file ram_tb.sv.
+TOOL:	irun(64)	15.20-s086: Exiting on Dec 01, 2022 at 20:00:27 IST  (total: 00:00:00)

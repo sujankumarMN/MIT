@@ -1,0 +1,19 @@
+$date
+    Dec 26, 2022  15:04:22
+$end
+$version
+    TOOL:	ncsim(64)	15.20-s086
+$end
+$timescale
+    1 ns
+$end
+
+$scope module ses_package $end
+$var parameter 32 !    N  $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b1100 !
+$end
+#100

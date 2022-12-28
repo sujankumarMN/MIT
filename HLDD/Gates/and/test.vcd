@@ -1,0 +1,46 @@
+$date
+    Nov  8, 2022  15:46:26
+$end
+$version
+    TOOL:	ncsim(64)	15.20-s086
+$end
+$timescale
+    1 ns
+$end
+
+$scope module and_tb $end
+$var reg       1 !    a  $end
+$var reg       1 "    b  $end
+$var wire      1 #    y  $end
+
+$scope module dut $end
+$var wire      1 $    a  $end
+$var wire      1 %    b  $end
+$var reg       1 &    y  $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+$end
+#5
+1"
+1%
+#10
+1!
+0"
+0%
+1$
+#15
+1"
+1%
+1&
+1#
+#20
