@@ -1,0 +1,76 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Dec 02, 2022 at 14:31:49 IST
+irun
+	+access+rwc
+	ram_tb.sv
+	+self
+	+gui
+
+   User defined plus("+") options:
+	+self
+
+Recompiling... reason: file './ram_environment.sv' is newer than expected.
+	expected: Fri Dec  2 14:21:48 2022
+	actual:   Fri Dec  2 14:31:46 2022
+file: ram_tb.sv
+	program worklib.ram_env:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	ram dut(ram_int);
+	              |
+ncelab: *W,CUINFN (./ram_tb.sv,12|15): A named interface port should be connected to an interface of the same name (ram_tb).
+	Top level design units:
+		ram_package
+		$unit_0x1bc4975c
+		ram_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.\$unit_0x1bc4975c :compilation_unit <0x043d134d>
+			streams:   8, words:  6673
+		worklib.\$unit_0x1bc4975c :compilation_unit <0x1e2c6f8d>
+			streams:   0, words:     0
+		worklib.\$unit_0x1bc4975c :compilation_unit <0x1e8ca677>
+			streams:   9, words: 22383
+		worklib.ram:sv <0x7cfd25d6>
+			streams:   1, words:   625
+		worklib.ram_env:sv <0x588997d9>
+			streams:   5, words:  4972
+		worklib.ram_tb:sv <0x54121388>
+			streams:   4, words:  1388
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                    2       2
+		Interfaces:                 1       1
+		Programs:                   1       1
+		Verilog packages:           1       1
+		Registers:                 28      40
+		Scalar wires:               1       -
+		Always blocks:              2       2
+		Initial blocks:             7       7
+		Pseudo assignments:         1       1
+		Compilation units:          1       1
+		SV Class declarations:      3       3
+		SV Class specializations:   3       3
+	Writing initial simulation snapshot: worklib.ram_tb:sv
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm ram_tb.dut.mem ram_tb.ram_int.address ram_tb.ram_int.clk ram_tb.ram_int.cs ram_tb.ram_int.data_in ram_tb.ram_int.data_out ram_tb.ram_int.oe ram_tb.ram_int.we
+Created probe 1
+ncsim> run
+Simulation complete via implicit call to $finish(1) at time 65 NS + 2
+./ram_environment.sv:4 program ram_env(ram_interface r);
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+TOOL:	irun(64)	15.20-s086: Exiting on Dec 02, 2022 at 14:32:33 IST  (total: 00:00:44)

@@ -1,0 +1,178 @@
+$date
+    Nov  8, 2022  17:27:15
+$end
+$version
+    TOOL:	ncsim(64)	15.20-s086
+$end
+$timescale
+    1 ns
+$end
+
+$scope module FA_tb $end
+$var reg       1 !    a  $end
+$var reg       1 "    b  $end
+$var reg       1 #    c  $end
+$var wire      1 $    sum  $end
+$var wire      1 %    cout  $end
+
+$scope module dut $end
+$var wire      1 &    a  $end
+$var wire      1 '    b  $end
+$var wire      1 (    c  $end
+$var reg       1 )    sum  $end
+$var reg       1 *    cout  $end
+$var wire      1 +    ab  $end
+$var wire      1 ,    abc  $end
+$var wire      1 -    a_b  $end
+
+$scope module sum1 $end
+$var wire      1 &    a  $end
+$var wire      1 '    b  $end
+$var reg       1 .    y  $end
+$upscope $end
+
+
+$scope module sum2 $end
+$var wire      1 -    a  $end
+$var wire      1 (    b  $end
+$var reg       1 /    y  $end
+$upscope $end
+
+
+$scope module car1 $end
+$var wire      1 -    a  $end
+$var wire      1 (    b  $end
+$var reg       1 0    y  $end
+$upscope $end
+
+
+$scope module car2 $end
+$var wire      1 &    a  $end
+$var wire      1 '    b  $end
+$var reg       1 1    y  $end
+$upscope $end
+
+
+$scope module car3 $end
+$var wire      1 ,    a  $end
+$var wire      1 +    b  $end
+$var reg       1 2    y  $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+x%
+0&
+0'
+0(
+0)
+x*
+x+
+x,
+0-
+0.
+0/
+x0
+x1
+x2
+$end
+#1
+00
+01
+0+
+0,
+02
+0*
+0%
+#5
+1#
+1(
+1/
+1)
+1$
+#10
+1"
+0#
+0(
+1'
+0/
+1.
+1-
+1/
+0)
+0$
+1)
+1$
+#15
+1#
+1(
+0/
+0)
+0$
+#16
+10
+1,
+12
+1*
+1%
+#20
+1!
+0"
+0#
+0(
+0'
+1&
+1/
+1)
+1$
+#21
+00
+0,
+02
+0*
+0%
+#25
+1#
+1(
+0/
+0)
+0$
+#26
+10
+1,
+12
+1*
+1%
+#30
+1"
+0#
+0(
+1'
+1/
+0.
+0-
+0/
+1)
+1$
+0)
+0$
+#31
+00
+11
+1+
+0,
+#35
+1#
+1(
+1/
+1)
+1$
+#40

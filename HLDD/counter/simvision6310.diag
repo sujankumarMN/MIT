@@ -1,0 +1,92 @@
+*** Message Type: info ***
+When: Mon Oct 10 10:45:11 AM IST 2022
+SimVision started.
+Version: TOOL:  simvision(64)   15.20-s086
+User: MSIS
+Host: localhost
+Platform: Linux/x86_64/3.10.0-1062.el7.x86_64
+Started: Mon Oct 10 10:45:11 AM IST 2022
+Command: /home/installs/INCISIVE152/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:localhost:39387 -64BIT -nocopyright
+Work Directory: /home/MSIS/Documents/sujan/VER/counter
+ 
+*** Message Type: info ***
+When: Mon Oct 10 10:45:11 AM IST 2022
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Mon Oct 10 10:45:13 AM IST 2022
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Mon Oct 10 10:45:14 AM IST 2022
+Connect to Simulator
+      Design: worklib.counter_tb:sv
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:      ncsim(64)       15.20-s086
+        User: MSIS
+        Host: localhost
+Time Started: Mon Oct 10 10:45:09 AM IST 2022
+  Process ID: 6273
+   Directory: /home/MSIS/Documents/sujan/VER/counter
+     Command: irun +access+rwc counter.sv +gui
+
+ 
+*** Message Type: info ***
+When: Mon Oct 10 10:45:14 AM IST 2022
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Mon Oct 10 10:45:19 AM IST 2022
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Mon Oct 10 10:46:16 AM IST 2022
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Mon Oct 10 11:00:07 AM IST 2022
+Exit NC-Sim: user
+      Design: worklib.counter_tb:sv
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:      ncsim(64)       15.20-s086
+        User: MSIS
+        Host: localhost
+Time Started: Mon Oct 10 10:45:09 AM IST 2022
+  Process ID: 6273
+   Directory: /home/MSIS/Documents/sujan/VER/counter
+     Command: irun +access+rwc counter.sv +gui
+
+ 
+*** Message Type: error ***
+When: Mon Oct 10 11:00:07 AM IST 2022
+NC-Sim Crashed:
+      Design: worklib.counter_tb:sv
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:      ncsim(64)       15.20-s086
+        User: MSIS
+        Host: localhost
+Time Started: Mon Oct 10 10:45:09 AM IST 2022
+  Process ID: 6273
+   Directory: /home/MSIS/Documents/sujan/VER/counter
+     Command: irun +access+rwc counter.sv +gui
+      Design: worklib.counter_tb:sv
+   Languages: verilog
+   Simulator: NC-Sim
+     Version: TOOL:   ncsim(64)       15.20-s086
+        User: MSIS
+        Host: localhost
+Time Started: Mon Oct 10 10:45:09 AM IST 2022
+  Process ID: 6273
+   Directory: /home/MSIS/Documents/sujan/VER/counter
+     Command: irun +access+rwc counter.sv +gui
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Mon Oct 10 11:00:10 AM IST 2022
+SimVision Exit.
+ 

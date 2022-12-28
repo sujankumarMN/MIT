@@ -1,0 +1,4 @@
+s1(08Nov2022:16:00:56):  irun +access+rwc HA.sv HA_tb.sv +gui 
+s2(08Nov2022:16:01:26):  irun +access+rwc HA.sv HA_tb.sv +gui 
+s3(08Nov2022:16:02:14):  irun +access+rwc HA.sv HA_tb.sv +gui 
+s4(08Nov2022:16:02:48):  irun +access+rwc HA.sv HA_tb.sv +gui 

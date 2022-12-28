@@ -1,0 +1,50 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Nov 08, 2022 at 17:27:01 IST
+irun
+	+access+rwc
+	FA.sv
+	FA_tb.sv
+	+gui
+Recompiling... reason: file '../and/and.sv' is newer than expected.
+	expected: Tue Nov  8 15:44:51 2022
+	actual:   Tue Nov  8 17:25:09 2022
+file: FA.sv
+	module worklib.and_gate:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		FA_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.and_gate:sv <0x2a0aadc5>
+			streams:   1, words:   639
+		worklib.xor_gate:sv <0x20a11b2c>
+			streams:   1, words:   365
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              7       5
+		Registers:           10       8
+		Scalar wires:        12       -
+		Always blocks:        5       3
+		Initial blocks:       2       2
+		Pseudo assignments:   5       5
+	Writing initial simulation snapshot: worklib.FA_tb:sv
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm FA_tb.a FA_tb.b FA_tb.c FA_tb.cout FA_tb.sum
+Created probe 1
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> run -next
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> TOOL:	irun(64)	15.20-s086: Exiting on Nov 08, 2022 at 19:29:35 IST  (total: 02:02:34)

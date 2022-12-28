@@ -1,0 +1,5 @@
+s1(08Nov2022:16:21:45):  irun +access+rwc FA.sv FA_tb.sv +gui 
+s2(08Nov2022:16:22:35):  irun +access+rwc FA.sv FA_tb.sv +gui 
+s3(08Nov2022:16:23:03):  irun +access+rwc FA.sv FA_tb.sv +gui 
+s4(08Nov2022:16:44:13):  irun +access+rwc FA.sv FA_tb.sv +gui 
+s5(08Nov2022:17:27:01):  irun +access+rwc FA.sv FA_tb.sv +gui 
