@@ -1,0 +1,4 @@
+s1(23Dec2022:15:53:12):  irun +access+rwc tb_ram_controller.sv +read 
+s2(23Dec2022:15:54:17):  irun +access+rwc tb_ram_controller.sv +self 
+s3(26Dec2022:15:52:26):  irun +access+rwc tb_ram_controller.sv +wr_burst +gui 
+s4(26Dec2022:16:00:32):  irun +access+rwc tb_ram_controller.sv +wr_burst +gui -coverage all 
