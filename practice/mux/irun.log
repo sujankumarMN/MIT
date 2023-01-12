@@ -1,0 +1,76 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Jan 13, 2023 at 01:20:28 IST
+irun
+	+access+rwc
+	mux.sv
+	mux_tb.sv
+	+gui
+Recompiling... reason: file './mux.sv' is newer than expected.
+	expected: Fri Jan 13 01:18:16 2023
+	actual:   Fri Jan 13 01:20:26 2023
+file: mux.sv
+	logic a,b,c,y;
+	      |
+ncvlog: *W,ILLPDX (mux.sv,2|7): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'a') [12.3.4(IEEE-2001)].
+	logic a,b,c,y;
+	        |
+ncvlog: *W,ILLPDX (mux.sv,2|9): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'b') [12.3.4(IEEE-2001)].
+	logic a,b,c,y;
+	          |
+ncvlog: *W,ILLPDX (mux.sv,2|11): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'c') [12.3.4(IEEE-2001)].
+	logic a,b,c,y;
+	            |
+ncvlog: *W,ILLPDX (mux.sv,2|13): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'y') [12.3.4(IEEE-2001)].
+	logic abar,bbar,cbar;
+	         |
+ncvlog: *W,ILLPDX (mux.sv,3|10): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'abar') [12.3.4(IEEE-2001)].
+	logic abar,bbar,cbar;
+	              |
+ncvlog: *W,ILLPDX (mux.sv,3|15): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'bbar') [12.3.4(IEEE-2001)].
+	logic abar,bbar,cbar;
+	                   |
+ncvlog: *W,ILLPDX (mux.sv,3|20): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'cbar') [12.3.4(IEEE-2001)].
+	module worklib.mux:sv
+		errors: 0, warnings: 7
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		mux_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	mux dut(.*);
+	      |
+ncelab: *W,CUVDSO (./mux_tb.sv,3|7): 3 output ports were not connected by dot-star:
+ncelab: (./mux.sv,1): abar
+ncelab: (./mux.sv,1): bbar
+ncelab: (./mux.sv,1): cbar
+
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux:sv <0x7fa8e213>
+			streams:   1, words:  1072
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           8       8
+		Scalar wires:        5       -
+		Always blocks:       1       1
+		Initial blocks:      1       1
+		Pseudo assignments:  4       4
+	Writing initial simulation snapshot: worklib.mux_tb:sv
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm mux_tb.dut.a mux_tb.dut.abar mux_tb.dut.b mux_tb.dut.bbar mux_tb.dut.c mux_tb.dut.cbar mux_tb.dut.y
+Created probe 1
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> ^C
+ncsim> exit
+TOOL:	irun(64)	15.20-s086: Exiting on Jan 13, 2023 at 01:25:52 IST  (total: 00:05:24)

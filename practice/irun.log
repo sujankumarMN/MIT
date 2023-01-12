@@ -1,0 +1,70 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Jan 12, 2023 at 23:38:07 IST
+irun
+	+access+rwc
+	fa4_tb.sv
+	+gui
+Recompiling... reason: file './fa4_tb.sv' is newer than expected.
+	expected: Thu Jan 12 23:04:39 2023
+	actual:   Thu Jan 12 23:37:42 2023
+file: fa4_tb.sv
+	logic a,b,cin,sum,cout;
+	      |
+ncvlog: *W,ILLPDX (fa.sv,2|7): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'a') [12.3.4(IEEE-2001)].
+(`include file: fa.sv line 5, file: fa4_tb.sv line 1)
+	logic a,b,cin,sum,cout;
+	        |
+ncvlog: *W,ILLPDX (fa.sv,2|9): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'b') [12.3.4(IEEE-2001)].
+(`include file: fa.sv line 5, file: fa4_tb.sv line 1)
+	logic a,b,cin,sum,cout;
+	            |
+ncvlog: *W,ILLPDX (fa.sv,2|13): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'cin') [12.3.4(IEEE-2001)].
+(`include file: fa.sv line 5, file: fa4_tb.sv line 1)
+	logic a,b,cin,sum,cout;
+	                |
+ncvlog: *W,ILLPDX (fa.sv,2|17): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'sum') [12.3.4(IEEE-2001)].
+(`include file: fa.sv line 5, file: fa4_tb.sv line 1)
+	logic a,b,cin,sum,cout;
+	                     |
+ncvlog: *W,ILLPDX (fa.sv,2|22): Multiple declarations for a port not allowed in module with ANSI list of port declarations (port 'cout') [12.3.4(IEEE-2001)].
+(`include file: fa.sv line 5, file: fa4_tb.sv line 1)
+	module worklib.fa4_tb:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	fa4 dut(fint);
+	           |
+ncelab: *W,CUINFN (./fa4_tb.sv,10|12): A named interface port should be connected to an interface of the same name (fa4_tb).
+	Top level design units:
+		fa4_tb
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.fa4_tb:sv <0x2464e951>
+			streams:   5, words:  4778
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              6       3
+		Interfaces:           1       1
+		Registers:           17      11
+		Scalar wires:        30       -
+		Initial blocks:       3       3
+		Cont. assignments:    8       2
+		Pseudo assignments:  14      14
+	Writing initial simulation snapshot: worklib.fa4_tb:sv
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm fa4_tb.dut.temp_carry fa4_tb.fint.a fa4_tb.fint.b fa4_tb.fint.cin fa4_tb.fint.cout fa4_tb.fint.sum
+Created probe 1
+ncsim> run
+Simulation complete via $finish(1) at time 1 US + 0
+./fa4_tb.sv:40 		#1000 $finish;
+ncsim> TOOL:	irun(64)	15.20-s086: Exiting on Jan 12, 2023 at 23:52:57 IST  (total: 00:14:50)

@@ -1,0 +1,234 @@
+csi-ncelab - CSI: Command line:
+ncelab
+    -f /home/MSIS/Documents/sujan/HLDD/practice/INCA_libs/irun.lnx8664.15.20.nc/ncelab.args
+        +access+rwc
+        +gui
+        -ACCESS +rwc
+        -MESSAGES
+        -XLMODE ./INCA_libs/irun.lnx8664.15.20.nc
+        -RUNMODE
+        -CDSLIB ./INCA_libs/irun.lnx8664.15.20.nc/cds.lib
+        -HDLVAR ./INCA_libs/irun.lnx8664.15.20.nc/hdl.var
+        -WORK worklib
+        -HASXLMODE
+    -CHECK_VERSION TOOL:	irun(64)	15.20-s086
+    -LOG_FD 4
+
+csi-ncelab - CSI: *F,INTERR: INTERNAL EXCEPTION
+-----------------------------------------------------------------
+The tool has encountered an unexpected condition and must exit.
+Contact Cadence Design Systems customer support about this
+problem and provide enough information to help us reproduce it,
+including the logfile that contains this error message.
+  TOOL:	ncelab(64)	15.20-s086
+  HOSTNAME: vl-07
+  OPERATING SYSTEM: Linux 3.10.0-1062.el7.x86_64 #1 SMP Thu Jul 18 20:25:13 UTC 2019 x86_64
+  MESSAGE: sv_seghandler - trapno -1 addr((nil))
+-----------------------------------------------------------------
+
+csi-ncelab - CSI: Cadence Support Investigation, recording details
+Error: Error processing stack frame(2) - skipping rest of frame!
+Verilog Syntax Tree: io interface declaration (VST_D_IO_INTERFACE) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 17, position 19
+	Scope: incr_5
+	Decompile: unable to decompile type 519
+	Source  : module incr_5(fint f);
+	Position:                    ^
+Verilog Syntax Tree: module declaration (VST_D_MODULE) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 17, position 12
+	Scope: incr_5
+	Decompile: incr_5
+	Source  : module incr_5(fint f);
+	Position:             ^
+Intermediate File: root (IF_ROOT) in module worklib.incr_5:sv (VST)
+Verilog Syntax Tree: module declaration (VST_D_MODULE) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 9
+	Scope: fa4
+	Decompile: fa4
+	Source  : module fa4(fint f);
+	Position:          ^
+Verilog Syntax Tree: root (VST_ROOT) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 5
+	Decompile: fa4
+	Source  : module fa4(fint f);
+	Position:      ^
+Verilog Syntax Tree: instance declaration (VST_D_INSTANCE) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 19, position 7
+	Scope: incr_5
+	Decompile: add
+	Source  : 	fa4 add(f);
+	Position: 	      ^
+Verilog Syntax Tree: root (VST_ROOT) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 5
+	Decompile: fa4
+	Source  : module fa4(fint f);
+	Position:      ^
+Verilog Syntax Tree: unknown expression (VST_E_UNKNOWN) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 11, position 11
+	Scope: fa4
+	Decompile: f.a[0]
+	Source  : 	fa add1(f.a[0],f.b[0],f.cin,f.sum[0],temp_carry[0]);
+	Position: 	          ^
+Verilog Syntax Tree: io interface declaration (VST_D_IO_INTERFACE) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 16
+	Scope: fa4
+	Decompile: unable to decompile type 519
+	Source  : module fa4(fint f);
+	Position:                 ^
+Verilog Syntax Tree: root (VST_ROOT) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 5
+	Decompile: fa4
+	Source  : module fa4(fint f);
+	Position:      ^
+Verilog Syntax Tree: module declaration (VST_D_MODULE) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 9
+	Scope: fa4
+	Decompile: fa4
+	Source  : module fa4(fint f);
+	Position:          ^
+Verilog Syntax Tree: io interface declaration (VST_D_IO_INTERFACE) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 17, position 19
+	Scope: incr_5
+	Decompile: unable to decompile type 519
+	Source  : module incr_5(fint f);
+	Position:                    ^
+Verilog Syntax Tree: module declaration (VST_D_MODULE) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 9
+	Scope: fa4
+	Decompile: fa4
+	Source  : module fa4(fint f);
+	Position:          ^
+Verilog Syntax Tree: identifier expression (VST_E_IDENTIFIER) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 19, position 9
+	Scope: incr_5
+	Decompile: f
+	Source  : 	fa4 add(f);
+	Position: 	        ^
+Verilog Syntax Tree: instance declaration (VST_D_INSTANCE) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 19, position 7
+	Scope: incr_5
+	Decompile: add
+	Source  : 	fa4 add(f);
+	Position: 	      ^
+Verilog Syntax Tree: io interface declaration (VST_D_IO_INTERFACE) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 16
+	Scope: fa4
+	Decompile: unable to decompile type 519
+	Source  : module fa4(fint f);
+	Position:                 ^
+Verilog Syntax Tree: design unit type (VST_T_DESIGN_UNIT) in module worklib.incr_5:sv (VST)
+	Scope: incr_5
+	Decompile: unable to decompile type 865
+Verilog Syntax Tree: identifier expression (VST_E_IDENTIFIER) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 16
+	Scope: fa4
+	Decompile: f
+	Source  : module fa4(fint f);
+	Position:                 ^
+Verilog Syntax Tree: module declaration (VST_D_MODULE) in module worklib.incr5_tb:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/incr5_tb.sv, line 3, position 14
+	Scope: incr5_tb
+	Decompile: incr5_tb
+	Source  : module incr5_tb();
+	Position:               ^
+Intermediate File: string (IF_STRING) in module worklib.incr5_tb:sv (VST)
+	Decompile: incr5_tb
+Verilog Syntax Tree: root (VST_ROOT) in module worklib.incr5_tb:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/incr5_tb.sv, line 3, position 5
+	Decompile: incr5_tb
+	Source  : module incr5_tb();
+	Position:      ^
+Verilog Syntax Tree: root (VST_ROOT) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 5
+	Decompile: fa4
+	Source  : module fa4(fint f);
+	Position:      ^
+Verilog Syntax Tree: root (VST_ROOT) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 17, position 5
+	Decompile: incr_5
+	Source  : module incr_5(fint f);
+	Position:      ^
+Verilog Syntax Tree: hierarchical reference declaration (VST_D_OOMR) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 19, position 7
+	Decompile: fa4
+	Source  : 	fa4 add(f);
+	Position: 	      ^
+Intermediate File: string (IF_STRING) in module worklib.incr_5:sv (VST)
+	Decompile: incr_5
+Intermediate File: string (IF_STRING) in module worklib.incr_5:sv (VST)
+	Decompile: sv
+Intermediate File: string (IF_STRING) in module worklib.incr_5:sv (VST)
+	Decompile: worklib
+Intermediate File: string (IF_STRING) in module worklib.incr_5:sv (VST)
+	Decompile: fa4
+Verilog Syntax Tree: module declaration (VST_D_MODULE) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 9
+	Scope: fa4
+	Decompile: fa4
+	Source  : module fa4(fint f);
+	Position:          ^
+Verilog Syntax Tree: root (VST_ROOT) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 17, position 5
+	Decompile: incr_5
+	Source  : module incr_5(fint f);
+	Position:      ^
+Intermediate File: string (IF_STRING) in module worklib.incr_5:sv (VST)
+	Decompile: add
+Verilog Syntax Tree: instance declaration (VST_D_INSTANCE) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 19, position 7
+	Scope: incr_5
+	Decompile: add
+	Source  : 	fa4 add(f);
+	Position: 	      ^
+Verilog Syntax Tree: io interface declaration (VST_D_IO_INTERFACE) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 17, position 19
+	Scope: incr_5
+	Decompile: unable to decompile type 519
+	Source  : module incr_5(fint f);
+	Position:                    ^
+Intermediate File: string (IF_STRING) in module worklib.incr_5:sv (VST)
+	Decompile: fint
+Verilog Syntax Tree: root (VST_ROOT) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 5
+	Decompile: fa4
+	Source  : module fa4(fint f);
+	Position:      ^
+Verilog Syntax Tree: module declaration (VST_D_MODULE) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 17, position 12
+	Scope: incr_5
+	Decompile: incr_5
+	Source  : module incr_5(fint f);
+	Position:             ^
+Verilog Syntax Tree: hierarchical reference declaration (VST_D_OOMR) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 19, position 7
+	Decompile: fa4
+	Source  : 	fa4 add(f);
+	Position: 	      ^
+Verilog Syntax Tree: root (VST_ROOT) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 17, position 5
+	Decompile: incr_5
+	Source  : module incr_5(fint f);
+	Position:      ^
+Verilog Syntax Tree: root (VST_ROOT) in module worklib.fa4:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 7, position 5
+	Decompile: fa4
+	Source  : module fa4(fint f);
+	Position:      ^
+Verilog Syntax Tree: instance declaration (VST_D_INSTANCE) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 19, position 7
+	Scope: incr_5
+	Decompile: add
+	Source  : 	fa4 add(f);
+	Position: 	      ^
+Verilog Syntax Tree: hierarchical reference declaration (VST_D_OOMR) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 19, position 7
+	Decompile: fa4
+	Source  : 	fa4 add(f);
+	Position: 	      ^
+Verilog Syntax Tree: instance declaration (VST_D_INSTANCE) in module worklib.incr_5:sv (VST)
+	File: /home/MSIS/Documents/sujan/HLDD/practice/fa.sv, line 19, position 7
+	Scope: incr_5
+	Decompile: add
+	Source  : 	fa4 add(f);
+	Position: 	      ^
+csi-ncelab - CSI: investigation complete took 0.016 secs, send this file to Cadence Support
