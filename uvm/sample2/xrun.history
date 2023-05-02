@@ -1,0 +1,4 @@
+s1(04Apr2023:09:35:22):  xrun -uvm top.sv 
+s2(04Apr2023:09:38:48):  xrun -uvm -timescale 1ns/1ns top.sv 
+s3(04Apr2023:11:04:00):  xrun -uvm -timescale 1ns/1ns top.sv 
+s4(28Apr2023:15:24:13):  xrun -uvm top.sv 

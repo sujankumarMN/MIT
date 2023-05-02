@@ -1,0 +1,16 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Feb 14, 2023 at 11:44:48 IST
+irun
+	+access+rwc
+	encapsulation3.sv
+file: encapsulation3.sv
+		ext e=new();
+		     |
+ncvlog: *W,VARIST (encapsulation3.sv,15|7): Local static variable with initializer requires 'static' keyword.
+		$display(e.i);
+		           |
+ncvlog: *E,CLSNPO (encapsulation3.sv,16|13): Access to protected member 'i' in class 'base' is not allowed here.
+	program worklib.main:sv
+		errors: 1, warnings: 1
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	irun(64)	15.20-s086: Exiting on Feb 14, 2023 at 11:44:48 IST  (total: 00:00:00)

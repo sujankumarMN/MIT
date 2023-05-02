@@ -1,0 +1,10 @@
+s1(09Feb2023:10:34:59):  irun +access+rwc top.sv 
+s2(09Feb2023:10:38:00):  irun +access+rwc top.sv 
+s3(09Feb2023:10:39:06):  irun +access+rwc top.sv 
+s4(09Feb2023:10:39:12):  irun +access+rwc top.sv 
+s5(09Feb2023:10:40:32):  irun +access+rwc -uvm top.sv 
+s6(09Feb2023:10:41:01):  irun +access+rwc -uvm top.sv 
+s7(09Feb2023:10:42:49):  irun +access+rwc -uvm top.sv 
+s8(09Feb2023:10:46:11):  irun +access+rwc -uvm top.sv 
+s9(09Feb2023:10:47:12):  irun +access+rwc -uvm top.sv 
+s10(09Feb2023:10:47:41):  irun +access+rwc -uvm top.sv 

@@ -1,0 +1,107 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Mar 14, 2023 at 11:08:53 IST
+irun
+	+access+rwc
+	-uvm
+	top.sv
+Recompiling... reason: file './seq.sv' is newer than expected.
+	expected: Tue Feb 28 11:48:26 2023
+	actual:   Tue Mar 14 11:08:51 2023
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/installs/INCISIVE152/tools/methodology/UVM/CDNS-1.1d
+file: top.sv
+		seq_item1.randomize();
+		                  |
+ncvlog: *W,FUNTSK (top.sv,16|20): function called as a task without void'().
+		seq_item2.randomize();
+		                  |
+ncvlog: *W,FUNTSK (top.sv,20|20): function called as a task without void'().
+	module worklib.top:sv
+		errors: 0, warnings: 2
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		$unit_0x0a841232
+		top
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.\$unit_0x0a841232 :compilation_unit <0x7aa7b4a4>
+			streams:   0, words:     0
+		worklib.top:sv <0x4ae3c7fe>
+			streams:   1, words: 10954
+		worklib.uvm_pkg:sv <0x41d44127>
+			streams:  24, words: 43437
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              4       4
+		Registers:                 12923   10044
+		Named events:                  4      12
+		Initial blocks:              252     146
+		Parallel blocks:              26      27
+		Assertions:                    2       2
+		Compilation units:             1       1
+		SV Class declarations:       190     304
+		SV Class specializations:    339     339
+	Writing initial simulation snapshot: worklib.top:sv
+ncelab: *W,DPIEXP: DPI export function in  _sv_export.so not available.
+Loading snapshot worklib.top:sv .................... Done
+SVSEED default: 1
+ncsim: *E,IMPDLL: Unable to load the implicit shared object.
+OSDLERROR: (null)/top/sv/_sv_export.so: cannot open shared object file: No such file or directory or file is not valid ELFCLASS64 library..
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncsim> source /home/installs/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> source /home/installs/INCISIVE152/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+ncsim> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (15.20-s086)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+---------------------------------------
+Name          Type          Size  Value
+---------------------------------------
+mem_seq_item  mem_seq_item  -     @2580
+  addr        integral      4     'h3  
+  wr_en       integral      1     'h1  
+  rd_en       integral      1     'h0  
+  wdata       integral      8     'h7b 
+---------------------------------------
+---------------------------------------
+Name          Type          Size  Value
+---------------------------------------
+mem_seq_item  mem_seq_item  -     @2617
+  addr        integral      4     'hd  
+  wr_en       integral      1     'h1  
+  rd_en       integral      1     'h0  
+  wdata       integral      8     'h6  
+---------------------------------------
+UVM_INFO @ 0: reporter [MISCMP] Miscompare for mem_seq_item.addr: lhs = 'h3 : rhs = 'hd
+UVM_INFO @ 0: reporter [MISCMP] 2 Miscompare(s) (1 shown) for object mem_seq_item@2617 vs. mem_seq_item@2580
+UVM_ERROR top.sv(27) @ 0: reporter [] this is nooooo
+UVM_INFO top.sv(32) @ 0: reporter [] this is yesssss
+UVM_INFO top.sv(40) @ 0: reporter [] this is yesssss
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s086: Exiting on Mar 14, 2023 at 11:08:58 IST  (total: 00:00:05)

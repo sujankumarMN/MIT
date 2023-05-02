@@ -1,0 +1,94 @@
+xrun(64): 20.09-s012: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s012: Started on Apr 28, 2023 at 15:24:13 IST
+xrun
+	-uvm
+	top.sv
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		my_package
+		top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       2       2
+		Interfaces:                    1       1
+		Verilog packages:              5       5
+		Registers:                 13670   10118
+		Named events:                  4      12
+		Always blocks:                 1       1
+		Initial blocks:              275     153
+		Parallel blocks:              26      27
+		Assertions:                    2       2
+		SV Class declarations:       195     309
+		SV Class specializations:    374     374
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+SVSEED default: 1
+xmsim: *W,RNDXCELON: A newer version of the SystemVerilog constraint solver is being used which has better support for array-solving, new solve-order mechanism, and seed stability enhancements..
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /home/installs/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> source /home/installs/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (20.09-s012)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+UVM_WARNING my_test.svh(19) @ 10: uvm_test_top [] Hi, this is a WAAARNINGGGGG message
+UVM_INFO dut.sv(7) @ 15: reporter [DUT ] Received cmd = 1, addr = 41, data = 67
+UVM_INFO dut.sv(7) @ 25: reporter [DUT ] Received cmd = 0, addr = 1c, data = 9f
+UVM_INFO dut.sv(7) @ 35: reporter [DUT ] Received cmd = 0, addr = 3b, data = 8e
+UVM_INFO dut.sv(7) @ 45: reporter [DUT ] Received cmd = 1, addr = 35, data = b5
+UVM_INFO dut.sv(7) @ 55: reporter [DUT ] Received cmd = 1, addr = 09, data = b1
+UVM_INFO /home/installs/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1268) @ 55: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    7
+UVM_WARNING :    1
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[]     1
+[DUT ]     5
+[RNTST]     1
+[TEST_DONE]     1
+Simulation complete via $finish(1) at time 55 NS + 49
+/home/installs/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> exit
+TOOL:	xrun(64)	20.09-s012: Exiting on Apr 28, 2023 at 15:24:19 IST  (total: 00:00:06)
