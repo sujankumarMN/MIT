@@ -1,0 +1,14 @@
+s1(01Jun2023:21:16:04):  irun +access+rwc dut.sv dut_tb.sv 
+s2(01Jun2023:21:16:27):  irun +access+rwc dut.sv dut_tb.sv 
+s3(01Jun2023:21:16:38):  irun +access+rwc dut.sv dut_tb.sv 
+s4(01Jun2023:21:16:54):  irun +access+rwc dut.sv dut_tb.sv 
+s5(01Jun2023:21:17:05):  irun +access+rwc dut.sv dut_tb.sv +gui 
+s6(01Jun2023:21:26:43):  irun +access+rwc dut.sv dut_tb.sv +gui 
+s7(01Jun2023:21:28:04):  irun +access+rwc dut.sv dut_tb.sv +gui 
+s8(01Jun2023:21:31:25):  irun +access+rwc dut.sv dut_tb.sv +gui 
+s9(01Jun2023:21:37:33):  irun +access+rwc dut.sv dut_tb.sv +gui 
+s10(01Jun2023:21:37:57):  irun +access+rwc dut.sv dut_tb.sv +gui 
+s11(01Jun2023:21:38:01):  irun +access+rwc dut.sv dut_tb.sv +gui 
+s12(01Jun2023:21:38:15):  irun +access+rwc dut.sv dut_tb.sv +gui 
+s13(01Jun2023:21:42:00):  irun +access+rwc dut.sv dut_tb.sv +gui 
+s14(01Jun2023:23:56:26):  irun +access+rwc -uvm top.sv 

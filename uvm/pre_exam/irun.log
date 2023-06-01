@@ -1,0 +1,85 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Jun 01, 2023 at 23:56:26 IST
+irun
+	+access+rwc
+	-uvm
+	top.sv
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/installs/INCISIVE152/tools/methodology/UVM/CDNS-1.1d
+file: top.sv
+package pack;
+      |
+ncvlog: *E,EXPENM (package.svh,2|6): expecting the keyword 'endmodule' [12.1(IEEE)].
+(`include file: package.svh line 2, file: top.sv line 2)
+	module worklib.top:sv
+		errors: 1, warnings: 0
+endtask
+      |
+ncvlog: *E,EXPENC (driver.svh,24|6): Expecting the keyword 'endclass'.
+(`include file: driver.svh line 24, `include file: agent.svh line 1, `include file: env.svh line 1, `include file: test.svh line 1, `include file: package.svh line 5, file: top.sv line 2)
+		seq_item sq = seq_item::type_id::create("sq",this);
+		       |
+ncvlog: *E,NOIPRT (seq.svh,8|9): Unrecognized declaration 'seq_item' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+(`include file: seq.svh line 8, `include file: agent.svh line 2, `include file: env.svh line 1, `include file: test.svh line 1, `include file: package.svh line 5, file: top.sv line 2)
+		seq_item sq = seq_item::type_id::create("sq",this);
+		       |
+ncvlog: *E,NOTINF (seq.svh,8|9): Interfaces are not allowed within tasks [SystemVerilog].
+(`include file: seq.svh line 8, `include file: agent.svh line 2, `include file: env.svh line 1, `include file: test.svh line 1, `include file: package.svh line 5, file: top.sv line 2)
+		seq_item sq = seq_item::type_id::create("sq",this);
+		            |
+ncvlog: *E,EXPSMC (seq.svh,8|14): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: seq.svh line 8, `include file: agent.svh line 2, `include file: env.svh line 1, `include file: test.svh line 1, `include file: package.svh line 5, file: top.sv line 2)
+		seq_item sq = seq_item::type_id::create("sq",this);
+		                       |
+ncvlog: *E,ILLHIN (seq.svh,8|25): illegal location for a hierarchical name (seq_item).
+(`include file: seq.svh line 8, `include file: agent.svh line 2, `include file: env.svh line 1, `include file: test.svh line 1, `include file: package.svh line 5, file: top.sv line 2)
+		seq_item sq = seq_item::type_id::create("sq",this);
+		                                |
+ncvlog: *E,ILLPREF (seq.svh,8|34): Illegal syntax for a package reference name (multiple ::).
+(`include file: seq.svh line 8, `include file: agent.svh line 2, `include file: env.svh line 1, `include file: test.svh line 1, `include file: package.svh line 5, file: top.sv line 2)
+		seq_item sq = seq_item::type_id::create("sq",this);
+		                                       |
+ncvlog: *E,EXPSMC (seq.svh,8|41): expecting a semicolon (';') [12.3.2(IEEE)].
+(`include file: seq.svh line 8, `include file: agent.svh line 2, `include file: env.svh line 1, `include file: test.svh line 1, `include file: package.svh line 5, file: top.sv line 2)
+		seq_item sq = seq_item::type_id::create("sq",this);
+		                                                |
+ncvlog: *E,FNDKWD (seq.svh,8|50): A SystemVerilog keyword was found where an identifier was expected.
+(`include file: seq.svh line 8, `include file: agent.svh line 2, `include file: env.svh line 1, `include file: test.svh line 1, `include file: package.svh line 5, file: top.sv line 2)
+		sq.randomize();
+		           |
+ncvlog: *W,FUNTSK (seq.svh,10|13): function called as a task without void'().
+(`include file: seq.svh line 10, `include file: agent.svh line 2, `include file: env.svh line 1, `include file: test.svh line 1, `include file: package.svh line 5, file: top.sv line 2)
+package pack;
+           |
+ncvlog: *W,TSNSPK (package.svh,2|11): `timescale is not specified for the package.  The default timescale of 1ns/1ns will be assumed for this package.
+(`include file: package.svh line 6, file: top.sv line 2)
+	package worklib.pack:svh
+		errors: 8, warnings: 2
+	module worklib.add:sv
+		errors: 0, warnings: 0
+	interface worklib.add_interface:sv
+		errors: 0, warnings: 0
+	import pack::*;
+	          |
+ncvlog: *E,NOPBIND (top.sv,7|11): Package pack could not be bound.
+	add_interface intf();
+	                 |
+ncvlog: *E,NCUITEM (top.sv,10|18): Not a valid compilation unit/global item: 'module/udp instance' [SystemVerilog].
+	add d1(.i(intf);
+	     |
+ncvlog: *E,NCUITEM (top.sv,11|6): Not a valid compilation unit/global item: 'module/udp instance' [SystemVerilog].
+	add d1(.i(intf);
+	               |
+ncvlog: *E,EXPRPA (top.sv,11|16): expecting a right parenthesis (')') [12.1.2][7.1(IEEE)].
+	initial begin
+	      |
+ncvlog: *E,DECINM (top.sv,13|7): Declaration is only valid within a module, interface, or a program block.
+	initial begin
+	      |
+ncvlog: *E,DECINM (top.sv,17|7): Declaration is only valid within a module, interface, or a program block.
+endmodule
+        |
+ncvlog: *E,MPANDC (top.sv,20|8): expecting the keyword 'module', 'macromodule', 'primitive', 'connectmodule','connect', 'discipline' or 'nature' [A.1].
+	Total errors/warnings found outside modules and primitives:
+		errors: 7, warnings: 0
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	irun(64)	15.20-s086: Exiting on Jun 01, 2023 at 23:56:28 IST  (total: 00:00:02)
